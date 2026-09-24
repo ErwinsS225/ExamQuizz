@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "ccst-01-001",
+    "domain": "Introduction to Data Security",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce que la sécurité des données ?",
+    "options": [
+      "La protection des données contre tout accès, utilisation ou divulgation non autorisé",
+      "Le chiffrement de tous les fichiers",
+      "La suppression des données sensibles",
+      "La sauvegarde des données uniquement"
+    ],
+    "answer": 0,
+    "explanation": "La sécurité des données englobe la confidentialité, l'intégrité et la disponibilité. Elle vise à protéger les données contre les accès, modifications et destructions non autorisés."
+  },
+  {
+    "id": "ccst-01-002",
+    "domain": "Introduction to Data Security",
+    "difficulty": "beginner",
+    "question": "Quel est l'élément le plus précieux pour un cybercriminel ?",
+    "options": [
+      "Le matériel informatique",
+      "Les données personnelles et confidentielles",
+      "Les logiciels installés",
+      "La connexion Internet"
+    ],
+    "answer": 1,
+    "explanation": "Les données (identifiants, informations bancaires, données de santé, secrets industriels) sont la cible principale car elles ont une valeur marchande directe."
+  },
+  {
+    "id": "ccst-01-003",
+    "domain": "Introduction to Data Security",
+    "difficulty": "beginner",
+    "question": "Que signifie le sigle CIA dans le contexte de la sécurité ?",
+    "options": [
+      "Central Intelligence Agency",
+      "Confidentialité, Intégrité, Disponibilité",
+      "Contrôle, Inspection, Audit",
+      "Chiffrement, Identification, Authentification"
+    ],
+    "answer": 1,
+    "explanation": "Le triptyque CIA (Confidentiality, Integrity, Availability) est le modèle fondateur de la sécurité de l'information. Toute mesure vise à préserver au moins l'un de ces piliers."
+  },
+  {
+    "id": "ccst-01-004",
+    "domain": "Introduction to Data Security",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce qu'un mot de passe fort ?",
+    "options": [
+      "Un mot de passe court et facile à retenir",
+      "Un mot de passe long, unique et complexe, stocké dans un gestionnaire",
+      "Le même mot de passe partout pour ne pas l'oublier",
+      "Votre date de naissance"
+    ],
+    "answer": 1,
+    "explanation": "Un mot de passe fort fait au moins 12 caractères, mélange majuscules, minuscules, chiffres et symboles, et est unique par service. Il est stocké dans un gestionnaire chiffré."
+  },
+  {
+    "id": "ccst-01-005",
+    "domain": "Introduction to Data Security",
+    "difficulty": "beginner",
+    "question": "Que faire si vous recevez un e-mail suspect ?",
+    "options": [
+      "Cliquer sur les liens pour vérifier",
+      "Ne pas cliquer, signaler et supprimer",
+      "Répondre avec vos identifiants",
+      "Le transférer à vos contacts"
+    ],
+    "answer": 1,
+    "explanation": "Ne jamais cliquer sur les liens ou pièces jointes d'un e-mail suspect. Signalez-le à votre service informatique et supprimez-le."
+  },
+  {
+    "id": "ccst-01-006",
+    "domain": "Introduction to Data Security",
+    "difficulty": "beginner",
+    "question": "Pourquoi ne pas utiliser de Wi-Fi public pour des opérations bancaires ?",
+    "options": [
+      "Le débit est trop lent",
+      "Le réseau peut être intercepté ou falsifié par un attaquant",
+      "C'est interdit par la loi",
+      "Les banques bloquent ces réseaux"
+    ],
+    "answer": 1,
+    "explanation": "Sur un Wi-Fi public, le trafic peut être intercepté. Utilisez un VPN ou le partage de connexion mobile pour les opérations sensibles."
+  },
+  {
+    "id": "ccst-01-007",
+    "domain": "Introduction to Data Security",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce que l'ingénierie sociale ?",
+    "options": [
+      "Une technique de programmation",
+      "Une manipulation psychologique pour obtenir des informations confidentielles",
+      "Un type de pare-feu",
+      "Un algorithme de chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "L'ingénierie sociale exploite la confiance humaine plutôt que les failles techniques. Exemples : phishing, pretexting, vishing, tailgating."
+  },
+  {
+    "id": "ccst-01-008",
+    "domain": "Introduction to Data Security",
+    "difficulty": "beginner",
+    "question": "Que signifie HTTPS dans une URL ?",
+    "options": [
+      "Le site est forcément sûr",
+      "La connexion est chiffrée avec le site",
+      "Le site est audité",
+      "Le site est public"
+    ],
+    "answer": 1,
+    "explanation": "HTTPS garantit que la communication est chiffrée. Cela ne signifie pas que le site est légitime : des sites de phishing utilisent HTTPS."
+  },
+  {
+    "id": "ccst-01-009",
+    "domain": "Introduction to Data Security",
+    "difficulty": "intermediate",
+    "question": "Quelle est la différence entre données personnelles et données sensibles ?",
+    "options": [
+      "Aucune différence",
+      "Les données personnelles identifient une personne ; les données sensibles incluent origine, santé, opinions, religion",
+      "Les données sensibles sont plus volumineuses",
+      "Les données personnelles sont publiques"
+    ],
+    "answer": 1,
+    "explanation": "Les données sensibles bénéficient d'une protection renforcée (RGPD) : origine raciale, opinions politiques, religion, santé, orientation sexuelle, etc."
+  },
+  {
+    "id": "ccst-01-010",
+    "domain": "Introduction to Data Security",
+    "difficulty": "intermediate",
+    "question": "Que signifie le principe de minimisation des données ?",
+    "options": [
+      "Chiffrer toutes les données",
+      "Ne collecter que les données strictement nécessaires à la finalité poursuivie",
+      "Supprimer les données après 24 h",
+      "Stocker les données en un seul endroit"
+    ],
+    "answer": 1,
+    "explanation": "La minimisation limite la collecte, la conservation et l'usage des données. Elle réduit le risque en cas de fuite."
+  },
+  {
+    "id": "ccst-01-011",
+    "domain": "Introduction to Data Security",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce que le credential stuffing ?",
+    "options": [
+      "Deviner un mot de passe par force brute",
+      "Réutiliser des identifiants fuités sur de nombreux services",
+      "Saturer un serveur",
+      "Intercepter un hash"
+    ],
+    "answer": 1,
+    "explanation": "L'attaquant rejoue des couples identifiant/mot de passe issus de fuites d'autres sites. La défense : ne jamais réutiliser un mot de passe."
+  },
+  {
+    "id": "ccst-01-012",
+    "domain": "Introduction to Data Security",
+    "difficulty": "intermediate",
+    "question": "Que signifie l'authentification multifacteur (MFA) ?",
+    "options": [
+      "Utiliser deux mots de passe",
+      "Combiner au moins deux facteurs de catégories différentes : connaissance, possession, inhérence",
+      "Changer de mot de passe tous les mois",
+      "Utiliser un code PIN uniquement"
+    ],
+    "answer": 1,
+    "explanation": "Le MFA combine au moins deux catégories différentes. Deux mots de passe ne constituent pas un MFA."
+  },
+  {
+    "id": "ccst-01-013",
+    "domain": "Introduction to Data Security",
+    "difficulty": "intermediate",
+    "question": "Que faire avant de jeter un document contenant des données personnelles ?",
+    "options": [
+      "Le jeter à la poubelle",
+      "Le détruire via un broyeur ou une corbeille sécurisée",
+      "Le déchirer en deux",
+      "Le garder"
+    ],
+    "answer": 1,
+    "explanation": "La destruction sécurisée évite le dumpster diving. Les documents confidentiels doivent être broyés ou déposés dans une corbeille sécurisée."
+  },
+  {
+    "id": "ccst-01-014",
+    "domain": "Introduction to Data Security",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'un indicateur de compromission (IoC) ?",
+    "options": [
+      "Un score CVSS",
+      "Un élément observable (hash, IP, domaine) révélant une compromission",
+      "Un certificat TLS",
+      "Un rapport d'audit"
+    ],
+    "answer": 1,
+    "explanation": "Les IoC alimentent les outils de détection : hash de malware, adresses IP malveillantes, domaines de phishing, clés de registre modifiées."
+  },
+  {
+    "id": "ccst-01-015",
+    "domain": "Introduction to Data Security",
+    "difficulty": "intermediate",
+    "question": "Que signifie le principe du moindre privilège ?",
+    "options": [
+      "Ne donner aucun droit",
+      "N'accorder que les droits strictement nécessaires à la fonction",
+      "Donner tous les droits",
+      "Attribuer les droits par défaut"
+    ],
+    "answer": 1,
+    "explanation": "Le moindre privilège limite la surface d'attaque et l'impact d'une compromission de compte. Il s'accompagne d'une revue périodique des accès."
+  },
+  {
+    "id": "ccst-01-016",
+    "domain": "Introduction to Data Security",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce que la classification des données ?",
+    "options": [
+      "Le chiffrement des données",
+      "Le fait de catégoriser les données selon leur sensibilité (public, interne, confidentiel, secret)",
+      "La suppression des données",
+      "La sauvegarde des données"
+    ],
+    "answer": 1,
+    "explanation": "La classification détermine les règles de protection : chiffrement, partage, conservation, destruction. Elle est le socle de toute politique de sécurité."
+  },
+  {
+    "id": "ccst-01-017",
+    "domain": "Introduction to Data Security",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que le principe de défense en profondeur ?",
+    "options": [
+      "Un pare-feu redondant",
+      "L'empilement de plusieurs couches de protection indépendantes",
+      "Le chiffrement intégral du disque",
+      "La journalisation de tous les accès"
+    ],
+    "answer": 1,
+    "explanation": "Aucune protection n'est infaillible. On superpose contrôle d'accès, segmentation, chiffrement, supervision, sensibilisation pour qu'une défaillance unique ne compromette pas tout."
+  },
+  {
+    "id": "ccst-01-018",
+    "domain": "Introduction to Data Security",
+    "difficulty": "advanced",
+    "question": "Qu'apporte une analyse EBIOS RM ?",
+    "options": [
+      "Un framework de développement web",
+      "Une méthode d'analyse et de gestion des risques en cybersécurité",
+      "Un protocole de chiffrement",
+      "Un type de pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "EBIOS Risk Manager structure l'analyse en 5 ateliers : cadrage, sources de risque, scénarios stratégiques, scénarios opérationnels, traitement du risque. Méthode de référence de l'ANSSI."
+  },
+  {
+    "id": "ccst-01-019",
+    "domain": "Introduction to Data Security",
+    "difficulty": "advanced",
+    "question": "Que signifie Zero Trust ?",
+    "options": [
+      "Aucun utilisateur n'accède à Internet",
+      "Aucune confiance implicite : chaque accès est vérifié, authentifié et autorisé",
+      "Le chiffrement est interdit en interne",
+      "Les administrateurs sont supprimés"
+    ],
+    "answer": 1,
+    "explanation": "Le modèle Zero Trust abandonne la notion de périmètre : chaque requête est authentifiée, autorisée et chiffrée, quel que soit l'emplacement réseau."
+  },
+  {
+    "id": "ccst-01-020",
+    "domain": "Introduction to Data Security",
+    "difficulty": "advanced",
+    "question": "Quelle est la différence entre menace, vulnérabilité et risque ?",
+    "options": [
+      "Ce sont des synonymes",
+      "La menace est un danger potentiel, la vulnérabilité une faiblesse exploitable, le risque la combinaison des deux avec un impact",
+      "La menace est matérielle, la vulnérabilité logicielle",
+      "Le risque est toujours nul si la menace est externe"
+    ],
+    "answer": 1,
+    "explanation": "Risque = (Menace × Vulnérabilité) × Impact. Une menace sans vulnérabilité ne produit pas d'incident ; une vulnérabilité sans menace est un défaut latent."
+  },
+  {
+    "id": "ccst-02-001",
+    "domain": "Securing Operating Systems",
+    "difficulty": "beginner",
+    "question": "Que faire après avoir installé un système d'exploitation ?",
+    "options": [
+      "Désinstaller le navigateur",
+      "Appliquer les mises à jour et changer les mots de passe par défaut",
+      "Désactiver le pare-feu",
+      "Installer un jeu"
+    ],
+    "answer": 1,
+    "explanation": "Un système non patché et avec mots de passe par défaut est compromis en quelques minutes s'il est exposé. Le durcissement initial est systématique."
+  },
+  {
+    "id": "ccst-02-002",
+    "domain": "Securing Operating Systems",
+    "difficulty": "beginner",
+    "question": "Que fait Windows Update ?",
+    "options": [
+      "Sauvegarde les fichiers",
+      "Télécharge et installe les correctifs de sécurité",
+      "Chiffre le disque",
+      "Gère les mots de passe"
+    ],
+    "answer": 1,
+    "explanation": "Les correctifs corrigent des vulnérabilités activement exploitées. On privilégie les mises à jour automatiques avec redémarrage contrôlé."
+  },
+  {
+    "id": "ccst-02-003",
+    "domain": "Securing Operating Systems",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce que l'UAC sous Windows ?",
+    "options": [
+      "Un antivirus",
+      "Un mécanisme demandant confirmation pour les actions administratives",
+      "Un pare-feu",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "L'UAC évite qu'un processus utilisateur agisse avec des privilèges administratifs silencieusement. Le contournement (UAC bypass) est une technique d'élévation classique."
+  },
+  {
+    "id": "ccst-02-004",
+    "domain": "Securing Operating Systems",
+    "difficulty": "beginner",
+    "question": "Pourquoi désactiver l'autorun des clés USB ?",
+    "options": [
+      "Pour économiser la batterie",
+      "Pour empêcher l'exécution automatique de code à l'insertion",
+      "Pour accélérer le démarrage",
+      "Pour libérer de l'espace"
+    ],
+    "answer": 1,
+    "explanation": "L'autorun était exploité par des vers (Conficker, Stuxnet). Sa désactivation est une mesure de base contre la propagation par support amovible."
+  },
+  {
+    "id": "ccst-02-005",
+    "domain": "Securing Operating Systems",
+    "difficulty": "beginner",
+    "question": "Que signifie verrouiller son poste de travail ?",
+    "options": [
+      "Éteindre l'ordinateur",
+      "Empêcher l'accès sans mot de passe (Windows+L)",
+      "Fermer le couvercle",
+      "Débrancher la souris"
+    ],
+    "answer": 1,
+    "explanation": "Le verrouillage (Windows+L ou Ctrl+Cmd+Q sur macOS) empêche un accès non autorisé. À combiner avec un verrouillage automatique après 5-10 min d'inactivité."
+  },
+  {
+    "id": "ccst-02-006",
+    "domain": "Securing Operating Systems",
+    "difficulty": "beginner",
+    "question": "Quel compte Windows doit être désactivé ?",
+    "options": [
+      "Administrateur",
+      "Invité",
+      "SYSTEM",
+      "Utilisateur"
+    ],
+    "answer": 1,
+    "explanation": "Le compte Invité (Guest) et le compte Administrateur intégré sont des cibles. On les désactive et on renomme l'administrateur intégré."
+  },
+  {
+    "id": "ccst-02-007",
+    "domain": "Securing Operating Systems",
+    "difficulty": "beginner",
+    "question": "Pourquoi utiliser un compte standard plutôt qu'administrateur au quotidien ?",
+    "options": [
+      "Pour la rapidité",
+      "Pour limiter l'impact d'une compromission",
+      "Pour économiser les licences",
+      "Pour la compatibilité"
+    ],
+    "answer": 1,
+    "explanation": "Travailler avec un compte standard limite les dégâts d'un malware. L'élévation ponctuelle via un compte admin distinct est préférable."
+  },
+  {
+    "id": "ccst-02-008",
+    "domain": "Securing Operating Systems",
+    "difficulty": "beginner",
+    "question": "Que fait BitLocker ?",
+    "options": [
+      "Un antivirus",
+      "Le chiffrement intégral du disque système et des données",
+      "Un gestionnaire de mots de passe",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "BitLocker chiffre les volumes et s'appuie sur un TPM. Il protège contre l'accès physique (vol de disque, démarrage sur un autre système)."
+  },
+  {
+    "id": "ccst-02-009",
+    "domain": "Securing Operating Systems",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce que Secure Boot ?",
+    "options": [
+      "Un antivirus au démarrage",
+      "Un mécanisme UEFI vérifiant la signature des composants de démarrage",
+      "Un mode de veille sécurisé",
+      "Un VPN permanent"
+    ],
+    "answer": 1,
+    "explanation": "Secure Boot empêche le chargement de bootloaders non signés, bloquant certaines attaques de type bootkit."
+  },
+  {
+    "id": "ccst-02-010",
+    "domain": "Securing Operating Systems",
+    "difficulty": "intermediate",
+    "question": "Que signifie CIS Benchmark ?",
+    "options": [
+      "Un algorithme de chiffrement",
+      "Un référentiel de configurations de durcissement par système",
+      "Un standard de sauvegarde",
+      "Un protocole réseau"
+    ],
+    "answer": 1,
+    "explanation": "Les CIS Benchmarks fournissent des recommandations de configuration (mots de passe, services, journaux, permissions) avec des niveaux 1 et 2."
+  },
+  {
+    "id": "ccst-02-011",
+    "domain": "Securing Operating Systems",
+    "difficulty": "intermediate",
+    "question": "Que fait la commande sfc /scannow ?",
+    "options": [
+      "Efface le disque",
+      "Vérifie et répare les fichiers système protégés",
+      "Recompile le noyau",
+      "Analyse les malwares"
+    ],
+    "answer": 1,
+    "explanation": "System File Checker compare les fichiers système avec la source de référence et les remplace si altérés. Utile en post-incident."
+  },
+  {
+    "id": "ccst-02-012",
+    "domain": "Securing Operating Systems",
+    "difficulty": "intermediate",
+    "question": "Quel est le rôle d'un TPM ?",
+    "options": [
+      "Un antivirus matériel",
+      "Stocker des clés cryptographiques et mesurer l'intégrité de la plateforme",
+      "Accélérer le chiffrement disque",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "Le TPM stocke les clés (BitLocker, Windows Hello), mesure l'intégrité du démarrage (PCR) et empêche l'extraction des secrets en cas de vol."
+  },
+  {
+    "id": "ccst-02-013",
+    "domain": "Securing Operating Systems",
+    "difficulty": "intermediate",
+    "question": "Pourquoi mettre à jour les pilotes (drivers) ?",
+    "options": [
+      "Pour la performance uniquement",
+      "Parce que les pilotes obsolètes contiennent des vulnérabilités exploitables",
+      "Pour la compatibilité uniquement",
+      "Pour la mode"
+    ],
+    "answer": 1,
+    "explanation": "Les pilotes (graphiques, réseau, chipset) sont des vecteurs d'élévation de privilèges. Leur mise à jour régulière est essentielle."
+  },
+  {
+    "id": "ccst-02-014",
+    "domain": "Securing Operating Systems",
+    "difficulty": "intermediate",
+    "question": "Que signifie le durcissement (hardening) d'un système ?",
+    "options": [
+      "Le remplacement d'un serveur",
+      "La réduction des fonctionnalités et configurations au strict nécessaire",
+      "L'augmentation de la puissance CPU",
+      "Le déploiement d'un antivirus"
+    ],
+    "answer": 1,
+    "explanation": "Durcir = désinstaller l'inutile, fermer les services non utilisés, appliquer des configurations sûres, changer les mots de passe par défaut."
+  },
+  {
+    "id": "ccst-02-015",
+    "domain": "Securing Operating Systems",
+    "difficulty": "intermediate",
+    "question": "Que faire avant de se connecter sur un ordinateur public ?",
+    "options": [
+      "Rien",
+      "Vérifier qu'il n'y a pas de logiciel espion, utiliser un compte invité ou une session privée, ne pas saisir d'identifiants sensibles",
+      "Changer la langue",
+      "Changer le fond d'écran"
+    ],
+    "answer": 1,
+    "explanation": "Sur un poste public, on évite les opérations sensibles (banque, e-mail pro). On utilise une session privée et on se déconnecte systématiquement."
+  },
+  {
+    "id": "ccst-02-016",
+    "domain": "Securing Operating Systems",
+    "difficulty": "intermediate",
+    "question": "Que signifie Windows Defender Credential Guard ?",
+    "options": [
+      "Un antivirus",
+      "Un mécanisme isolant les secrets d'authentification dans une enclave virtualisée",
+      "Un pare-feu",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "Credential Guard isole les secrets dans une enclave (VBS), rendant l'extraction par des outils type Mimikatz beaucoup plus difficile."
+  },
+  {
+    "id": "ccst-02-017",
+    "domain": "Securing Operating Systems",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que le Living Off the Land (LotL) ?",
+    "options": [
+      "Une technique agricole",
+      "L'utilisation d'outils légitimes du système par un attaquant pour rester discret",
+      "Un mode de chiffrement",
+      "Un standard de gestion de flotte"
+    ],
+    "answer": 1,
+    "explanation": "En utilisant des binaires signés et présents par défaut (PowerShell, WMI, certutil), l'attaquant contourne les contrôles applicatifs et les signatures."
+  },
+  {
+    "id": "ccst-02-018",
+    "domain": "Securing Operating Systems",
+    "difficulty": "advanced",
+    "question": "Qu'apporte Windows Defender Application Control (WDAC) ?",
+    "options": [
+      "Un antivirus renforcé",
+      "Une politique de contrôle applicatif basée sur la signature et l'éditeur des binaires",
+      "Un pare-feu",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "WDAC restreint l'exécution aux applications approuvées, bloquant l'exécution de scripts et binaires non signés. Puissant contre les rançongiciels et LotL."
+  },
+  {
+    "id": "ccst-02-019",
+    "domain": "Securing Operating Systems",
+    "difficulty": "advanced",
+    "question": "Que désigne l'ASLR ?",
+    "options": [
+      "Un protocole réseau",
+      "Une randomisation des adresses mémoire pour rendre l'exploitation plus difficile",
+      "Un antivirus",
+      "Un type de chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Address Space Layout Randomization randomise la position des segments mémoire, compliquant l'exploitation de dépassements. À combiner avec DEP, CFG."
+  },
+  {
+    "id": "ccst-02-020",
+    "domain": "Securing Operating Systems",
+    "difficulty": "advanced",
+    "question": "Pourquoi les paquets logiciels signés sont-ils importants sur Linux ?",
+    "options": [
+      "Ils sont plus rapides",
+      "Ils garantissent l'origine et l'intégrité du paquet",
+      "Ils consomment moins de RAM",
+      "Ils sont gratuits"
+    ],
+    "answer": 1,
+    "explanation": "Les dépôts signés (GPG) avec vérification des clés protègent contre les attaques de la chaîne d'approvisionnement (paquet compromis, miroir malveillant)."
+  },
+  {
+    "id": "ccst-03-001",
+    "domain": "Malware and Antivirus",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce qu'un malware ?",
+    "options": [
+      "Un logiciel légitime",
+      "Un logiciel conçu pour nuire, infecter ou voler des données",
+      "Un antivirus",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "Les malwares incluent virus, vers, chevaux de Troie, rançongiciels, spyware, adware, rootkits. Ils ont des modes de propagation et des impacts variés."
+  },
+  {
+    "id": "ccst-03-002",
+    "domain": "Malware and Antivirus",
+    "difficulty": "beginner",
+    "question": "Quel est le meilleur moyen de se protéger contre un rançongiciel ?",
+    "options": [
+      "Un antivirus à jour",
+      "Des sauvegardes régulières, déconnectées et testées",
+      "Le chiffrement du disque",
+      "La désactivation du partage"
+    ],
+    "answer": 1,
+    "explanation": "La règle 3-2-1 avec une copie hors ligne/immuable est déterminante. Une sauvegarde non testée n'est pas une sauvegarde."
+  },
+  {
+    "id": "ccst-03-003",
+    "domain": "Malware and Antivirus",
+    "difficulty": "beginner",
+    "question": "Quelle affirmation distingue un ver d'un cheval de Troie ?",
+    "options": [
+      "Le ver se propage seul ; le cheval de Troie se fait passer pour un logiciel légitime",
+      "Le ver chiffre les fichiers ; le cheval de Troie les exfiltre",
+      "Le ver cible les mobiles",
+      "Le ver est inoffensif"
+    ],
+    "answer": 0,
+    "explanation": "Le ver possède un mécanisme d'auto-propagation. Le cheval de Troie nécessite une action de la victime pour s'exécuter."
+  },
+  {
+    "id": "ccst-03-004",
+    "domain": "Malware and Antivirus",
+    "difficulty": "beginner",
+    "question": "Que fait un antivirus à signatures ?",
+    "options": [
+      "Analyse les comportements",
+      "Compare les fichiers à une base de signatures de malwares connus",
+      "Chiffre le disque",
+      "Bloque les sites web"
+    ],
+    "answer": 1,
+    "explanation": "Efficace contre les menaces connues, inefficace contre les menaces nouvelles (zero-day). Complémentaire d'un EDR pour l'analyse comportementale."
+  },
+  {
+    "id": "ccst-03-005",
+    "domain": "Malware and Antivirus",
+    "difficulty": "beginner",
+    "question": "Quel type de fichier est le plus risqué à ouvrir depuis un e-mail ?",
+    "options": [
+      "Un PDF vierge",
+      "Un fichier .exe, .scr, .js ou .docm",
+      "Un .txt",
+      "Un .jpg"
+    ],
+    "answer": 1,
+    "explanation": "Les exécutables, scripts et documents à macros sont les vecteurs les plus fréquents. Certaines extensions sont bloquées par défaut."
+  },
+  {
+    "id": "ccst-03-006",
+    "domain": "Malware and Antivirus",
+    "difficulty": "beginner",
+    "question": "Que faire si l'antivirus signale un fichier suspect ?",
+    "options": [
+      "L'ignorer",
+      "Ne pas l'exécuter, suivre la procédure de mise en quarantaine et signaler",
+      "Le renommer",
+      "Le transférer"
+    ],
+    "answer": 1,
+    "explanation": "La quarantaine isole le fichier sans le supprimer immédiatement (permettant l'analyse). Le renommer ou le transmettre est dangereux."
+  },
+  {
+    "id": "ccst-03-007",
+    "domain": "Malware and Antivirus",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce qu'un spyware ?",
+    "options": [
+      "Un logiciel espion collectant des informations à l'insu de l'utilisateur",
+      "Un antivirus",
+      "Un pare-feu",
+      "Un VPN"
+    ],
+    "answer": 0,
+    "explanation": "Les spyware (keyloggers, adwares furtifs, stalkerware) capturent frappes, écrans, données personnelles."
+  },
+  {
+    "id": "ccst-03-008",
+    "domain": "Malware and Antivirus",
+    "difficulty": "beginner",
+    "question": "Que signifie EICAR ?",
+    "options": [
+      "Un virus réel",
+      "Un fichier de test inoffensif permettant de vérifier un antivirus",
+      "Un laboratoire d'analyse",
+      "Un éditeur antivirus"
+    ],
+    "answer": 1,
+    "explanation": "Le fichier EICAR est un standard permettant de valider la détection antivirus sans utiliser de vrai malware."
+  },
+  {
+    "id": "ccst-03-009",
+    "domain": "Malware and Antivirus",
+    "difficulty": "intermediate",
+    "question": "Quel est l'apport principal d'un EDR ?",
+    "options": [
+      "Bloque les pièces jointes",
+      "Analyse les comportements et permet la détection, l'investigation et la réponse",
+      "Chiffre le disque",
+      "Remplace le pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "L'EDR surveille en continu processus, commandes et connexions, détecte des comportements anormaux et permet d'isoler la machine."
+  },
+  {
+    "id": "ccst-03-010",
+    "domain": "Malware and Antivirus",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'une vulnérabilité zero-day ?",
+    "options": [
+      "Corrigée depuis 24 h",
+      "Inconnue de l'éditeur et sans correctif disponible",
+      "Présente uniquement le jour de l'installation",
+      "Uniquement exploitable à distance"
+    ],
+    "answer": 1,
+    "explanation": "Aucun correctif n'existe : la détection comportementale, la limitation de surface d'attaque et la segmentation deviennent critiques."
+  },
+  {
+    "id": "ccst-03-011",
+    "domain": "Malware and Antivirus",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'un rootkit ?",
+    "options": [
+      "Un outil d'administration à distance",
+      "Un logiciel qui dissimule sa présence et celle d'autres malwares",
+      "Un script qui bloque un site",
+      "Un composant matériel de chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Le rootkit s'installe profondément (noyau, firmware, hyperviseur) pour rester indétectable. Sa détection exige un scan hors ligne ou la réinstallation."
+  },
+  {
+    "id": "ccst-03-012",
+    "domain": "Malware and Antivirus",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'un drive-by download ?",
+    "options": [
+      "Un téléchargement déclenché par la visite d'un site piégé",
+      "Un téléchargement lancé par l'utilisateur",
+      "Une mise à jour automatique",
+      "Un transfert USB"
+    ],
+    "answer": 0,
+    "explanation": "Il exploite souvent une faille du navigateur ou d'un plugin obsolète. Défenses : mises à jour, suppression des plugins inutiles, blocage des scripts."
+  },
+  {
+    "id": "ccst-03-013",
+    "domain": "Malware and Antivirus",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce que le cryptojacking ?",
+    "options": [
+      "Une attaque de phishing",
+      "Un détournement des ressources CPU/GPU pour miner de la cryptomonnaie",
+      "Un rançongiciel",
+      "Une attaque DDoS"
+    ],
+    "answer": 1,
+    "explanation": "Symptômes : ventilo à fond, ralentissements, consommation électrique en hausse. La détection passe par la supervision des processus et du réseau."
+  },
+  {
+    "id": "ccst-03-014",
+    "domain": "Malware and Antivirus",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'un fileless malware ?",
+    "options": [
+      "Un malware sur clé USB",
+      "Un malware qui s'exécute en mémoire, sans fichier sur disque",
+      "Un malware sans charge utile",
+      "Un malware signé"
+    ],
+    "answer": 1,
+    "explanation": "Le fileless exploite PowerShell, WMI, macros, registre. Il contourne les antivirus à signatures. Défense : journalisation avancée, EDR, restriction de scripts."
+  },
+  {
+    "id": "ccst-03-015",
+    "domain": "Malware and Antivirus",
+    "difficulty": "intermediate",
+    "question": "Que désigne le double extortion dans un rançongiciel ?",
+    "options": [
+      "Chiffrer deux fois",
+      "Chiffrer les données et menacer de les publier",
+      "Deux rançons successives",
+      "Un rançongiciel qui cible deux systèmes"
+    ],
+    "answer": 1,
+    "explanation": "Le groupe exfiltre d'abord les données, puis exige une rançon pour le déchiffrement ET pour ne pas publier. Le paiement ne garantit jamais l'absence de fuite."
+  },
+  {
+    "id": "ccst-03-016",
+    "domain": "Malware and Antivirus",
+    "difficulty": "intermediate",
+    "question": "Que signifie la quarantaine ?",
+    "options": [
+      "Une suppression définitive",
+      "Un isolement du fichier suspect dans un espace contrôlé",
+      "Un chiffrement",
+      "Un envoi à l'éditeur"
+    ],
+    "answer": 1,
+    "explanation": "La quarantaine permet l'analyse postérieure, la restauration si faux positif, et empêche l'exécution pendant ce temps."
+  },
+  {
+    "id": "ccst-03-017",
+    "domain": "Malware and Antivirus",
+    "difficulty": "advanced",
+    "question": "Qu'apporte l'AMSI sur Windows ?",
+    "options": [
+      "Un antivirus intégré",
+      "Une interface permettant aux applications de soumettre des scripts à l'antivirus avant exécution",
+      "Un pare-feu",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "L'AMSI est massivement ciblé par les attaquants (patch AMSI bypass en mémoire) car il bloque des scripts malveillants."
+  },
+  {
+    "id": "ccst-03-018",
+    "domain": "Malware and Antivirus",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce qu'un bootkit ?",
+    "options": [
+      "Un logiciel de démarrage rapide",
+      "Un rootkit infectant le secteur d'amorçage ou le firmware UEFI",
+      "Un antivirus au démarrage",
+      "Un BIOS modifié"
+    ],
+    "answer": 1,
+    "explanation": "Le bootkit persiste au-delà de la réinstallation OS. La remédiation peut nécessiter un reflash du firmware ou un remplacement matériel."
+  },
+  {
+    "id": "ccst-03-019",
+    "domain": "Malware and Antivirus",
+    "difficulty": "advanced",
+    "question": "Quelle technique permet à un malware de contourner une sandbox ?",
+    "options": [
+      "La compilation statique",
+      "La détection de l'environnement virtualisé et l'attente d'un délai avant activation",
+      "L'utilisation de TLS",
+      "Le chiffrement AES"
+    ],
+    "answer": 1,
+    "explanation": "Détection de VM (artefacts VMware/VirtualBox, timing, CPUID), dormance prolongée, exécution conditionnelle. Défense : sandbox avec anti-évasion, EDR comportemental."
+  },
+  {
+    "id": "ccst-03-020",
+    "domain": "Malware and Antivirus",
+    "difficulty": "advanced",
+    "question": "Que désigne Living Off the Land Binaries (LOLBins) ?",
+    "options": [
+      "Des malwares signés",
+      "Des binaires légitimes du système détournés pour télécharger/exécuter du code",
+      "Des rootkits matériels",
+      "Des exploits noyau"
+    ],
+    "answer": 1,
+    "explanation": "Exemples : certutil -urlcache, mshta, regsvr32. À surveiller via EDR et à restreindre par WDAC/AppLocker."
+  },
+  {
+    "id": "ccst-04-001",
+    "domain": "Internet Security",
+    "difficulty": "beginner",
+    "question": "Que garantit HTTPS ?",
+    "options": [
+      "Que le site est légitime",
+      "Que la connexion est chiffrée et que le serveur possède un certificat valide",
+      "Que le site ne collecte aucune donnée",
+      "Que le contenu est exempt de malware"
+    ],
+    "answer": 1,
+    "explanation": "HTTPS assure confidentialité, intégrité et authentification du domaine. Il ne dit rien de l'honnêteté du site."
+  },
+  {
+    "id": "ccst-04-002",
+    "domain": "Internet Security",
+    "difficulty": "beginner",
+    "question": "Que fait la navigation privée ?",
+    "options": [
+      "Elle chiffre le trafic",
+      "Elle empêche l'enregistrement local de l'historique et des cookies",
+      "Elle bloque les publicités",
+      "Elle protège contre les malwares"
+    ],
+    "answer": 1,
+    "explanation": "Le FAI, l'employeur et les sites visités voient toujours l'activité. Ce n'est pas un outil d'anonymat."
+  },
+  {
+    "id": "ccst-04-003",
+    "domain": "Internet Security",
+    "difficulty": "beginner",
+    "question": "Comment vérifier qu'un site est bien celui qu'il prétend être ?",
+    "options": [
+      "Le design du site",
+      "Vérifier le nom de domaine exact dans la barre d'adresse et le cadenas HTTPS",
+      "La présence d'un logo",
+      "Le nombre de visiteurs"
+    ],
+    "answer": 1,
+    "explanation": "Le cadenas seul ne suffit pas, mais combiné à la vérification du domaine exact c'est une base."
+  },
+  {
+    "id": "ccst-04-004",
+    "domain": "Internet Security",
+    "difficulty": "beginner",
+    "question": "Quelle est la bonne pratique pour télécharger un logiciel ?",
+    "options": [
+      "Depuis le premier résultat de recherche",
+      "Depuis le site officiel de l'éditeur ou une source signée vérifiée",
+      "Depuis un site de torrents",
+      "Par e-mail"
+    ],
+    "answer": 1,
+    "explanation": "Les sites tiers peuvent injecter des publiciels ou des versions modifiées. On privilégie le site officiel et la vérification de signature."
+  },
+  {
+    "id": "ccst-04-005",
+    "domain": "Internet Security",
+    "difficulty": "beginner",
+    "question": "Un certificat TLS expiré doit alerter l'utilisateur car…",
+    "options": [
+      "Il indique que le site est fermé",
+      "Il peut signaler une mauvaise configuration ou une interception",
+      "Il prouve que le site est infecté",
+      "Il signifie que le site est trop lent"
+    ],
+    "answer": 1,
+    "explanation": "Ne jamais cliquer sur « continuer malgré tout » sur un site sensible : l'alerte peut révéler un proxy d'interception ou une attaque MITM."
+  },
+  {
+    "id": "ccst-04-006",
+    "domain": "Internet Security",
+    "difficulty": "beginner",
+    "question": "Que sont les cookies de session ?",
+    "options": [
+      "Des cookies persistants",
+      "Des cookies supprimés à la fermeture du navigateur, portant souvent le jeton d'authentification",
+      "Des cookies publicitaires",
+      "Des cookies de préférence"
+    ],
+    "answer": 1,
+    "explanation": "Leur vol (XSS, malware) permet une usurpation de session. Attributs défensifs : HttpOnly, Secure, SameSite."
+  },
+  {
+    "id": "ccst-04-007",
+    "domain": "Internet Security",
+    "difficulty": "beginner",
+    "question": "Quelle extension de navigateur est la plus sûre ?",
+    "options": [
+      "Celle avec le plus d'utilisateurs",
+      "Celle dont l'éditeur est connu, vérifiée, avec permissions minimales",
+      "Celle proposée en publicité",
+      "Celle gratuite uniquement"
+    ],
+    "answer": 1,
+    "explanation": "Une extension avec accès « tous les sites » peut lire et modifier chaque page. Limiter le nombre d'extensions et vérifier l'éditeur."
+  },
+  {
+    "id": "ccst-04-008",
+    "domain": "Internet Security",
+    "difficulty": "beginner",
+    "question": "Que faire avant d'ouvrir un lien dans un e-mail ?",
+    "options": [
+      "Cliquer rapidement",
+      "Survoler le lien pour vérifier l'URL réelle",
+      "Le copier dans un document",
+      "L'envoyer à un ami"
+    ],
+    "answer": 1,
+    "explanation": "Le texte affiché peut être trompeur : vérifier la cible réelle. En cas de doute, accéder au site par URL officielle saisie à la main."
+  },
+  {
+    "id": "ccst-04-009",
+    "domain": "Internet Security",
+    "difficulty": "intermediate",
+    "question": "À quoi sert HSTS ?",
+    "options": [
+      "Un VPN",
+      "Un en-tête HTTP forçant le navigateur à utiliser HTTPS pour un domaine",
+      "Un antivirus",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "HSTS bloque les downgrades HTTPS → HTTP et le contournement par clic. La précharge (preload) étend la protection dès la première visite."
+  },
+  {
+    "id": "ccst-04-010",
+    "domain": "Internet Security",
+    "difficulty": "intermediate",
+    "question": "Que fait la Content Security Policy (CSP) ?",
+    "options": [
+      "Chiffrer les cookies",
+      "Restreindre les sources de scripts, styles, images autorisées sur une page",
+      "Un pare-feu",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "CSP est un en-tête HTTP qui liste les sources autorisées. Elle réduit l'impact des injections XSS en bloquant les scripts non autorisés."
+  },
+  {
+    "id": "ccst-04-011",
+    "domain": "Internet Security",
+    "difficulty": "intermediate",
+    "question": "Que signifie SameSite=Strict sur un cookie ?",
+    "options": [
+      "Le cookie n'est jamais envoyé",
+      "Le cookie n'est envoyé que pour des requêtes de même origine",
+      "Le cookie est chiffré",
+      "Le cookie est public"
+    ],
+    "answer": 1,
+    "explanation": "SameSite limite les attaques CSRF et le tracking cross-site. Lax autorise la navigation de premier niveau, Strict bloque tout cross-site."
+  },
+  {
+    "id": "ccst-04-012",
+    "domain": "Internet Security",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'un site typosquatté ?",
+    "options": [
+      "Un site officiel avec un nom long",
+      "Un site imitant un site légitime avec un nom proche",
+      "Un site bloqué",
+      "Un site HTTPS"
+    ],
+    "answer": 1,
+    "explanation": "Le typosquatting joue sur les fautes de frappe (gooogle.com, arnazon.fr). Utiliser des favoris et vérifier le domaine réduit le risque."
+  },
+  {
+    "id": "ccst-04-013",
+    "domain": "Internet Security",
+    "difficulty": "intermediate",
+    "question": "Que protège le mode DNS over HTTPS (DoH) ?",
+    "options": [
+      "Le chiffrement du disque",
+      "La confidentialité des requêtes DNS en les encapsulant dans HTTPS",
+      "Le Wi-Fi",
+      "La signature des e-mails"
+    ],
+    "answer": 1,
+    "explanation": "DoH chiffre les requêtes DNS, évitant l'observation et la modification par un intermédiaire. Complément de DoT."
+  },
+  {
+    "id": "ccst-04-014",
+    "domain": "Internet Security",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'un favicon spoofing ?",
+    "options": [
+      "Un malware",
+      "L'usage d'une favicon identique à un site légitime pour renforcer la crédibilité d'un site de phishing",
+      "Un tracker",
+      "Un cookie"
+    ],
+    "answer": 1,
+    "explanation": "L'utilisateur doit se fier au domaine, pas au logo. Sur mobile, la barre d'URL peut être masquée, ce qui renforce le risque."
+  },
+  {
+    "id": "ccst-04-015",
+    "domain": "Internet Security",
+    "difficulty": "intermediate",
+    "question": "Que fait un bloqueur de publicités au-delà du confort visuel ?",
+    "options": [
+      "Il chiffre le trafic",
+      "Il réduit la surface d'attaque des malvertising et le tracking",
+      "Il accélère le CPU",
+      "Il remplace l'antivirus"
+    ],
+    "answer": 1,
+    "explanation": "La publicité malveillante (malvertising) est un vecteur majeur d'infection. Un bloqueur réseau réduit ce risque."
+  },
+  {
+    "id": "ccst-04-016",
+    "domain": "Internet Security",
+    "difficulty": "intermediate",
+    "question": "Que signifie le tabnabbing ?",
+    "options": [
+      "Une attaque de phishing où un onglet inactif change de contenu et d'URL",
+      "Un DDoS",
+      "Un type de cookie",
+      "Un VPN"
+    ],
+    "answer": 0,
+    "explanation": "Défenses : ne pas cliquer sur les liens d'onglets suspects, vérifier l'URL avant de saisir un mot de passe, rel=noopener."
+  },
+  {
+    "id": "ccst-04-017",
+    "domain": "Internet Security",
+    "difficulty": "advanced",
+    "question": "Qu'apporte un navigateur en mode sandbox strict ?",
+    "options": [
+      "Un meilleur débit",
+      "L'isolation des onglets et des processus",
+      "Un chiffrement",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "Chrome (Site Isolation) et Firefox (Fission) isolent chaque origine dans un processus. Un exploit n'affecte alors qu'un onglet."
+  },
+  {
+    "id": "ccst-04-018",
+    "domain": "Internet Security",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que le cache poisoning côté navigateur ?",
+    "options": [
+      "Une corruption volontaire du cache DNS ou HTTP",
+      "Un déni de service",
+      "Un virus des cookies",
+      "Un ransomware"
+    ],
+    "answer": 0,
+    "explanation": "Le cache poisoning DNS détourne des requêtes vers des serveurs malveillants. Défenses : DNSSEC, DoH/DoT, purge de cache."
+  },
+  {
+    "id": "ccst-04-019",
+    "domain": "Internet Security",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce qu'une attaque CSRF ?",
+    "options": [
+      "Un chiffrement",
+      "L'exploitation de la session authentifiée d'un utilisateur pour exécuter une action",
+      "Un scan de ports",
+      "Un spam"
+    ],
+    "answer": 1,
+    "explanation": "Le site malveillant déclenche une requête vers le site légitime en profitant du cookie de session. Défenses : jetons anti-CSRF, SameSite."
+  },
+  {
+    "id": "ccst-04-020",
+    "domain": "Internet Security",
+    "difficulty": "advanced",
+    "question": "Comment un navigateur vérifie-t-il la validité d'un certificat TLS ?",
+    "options": [
+      "Uniquement la date",
+      "En vérifiant la chaîne de confiance jusqu'à une AC racine, la date, la révocation, et le nom du domaine",
+      "Par ping",
+      "Par DNS"
+    ],
+    "answer": 1,
+    "explanation": "La chaîne complète, la validité temporelle, le SAN (nom du domaine) et la révocation sont vérifiés. Une AC racine compromise casserait tout le modèle."
+  },
+  {
+    "id": "ccst-05-001",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "beginner",
+    "question": "Pourquoi ne pas publier ses informations personnelles sur les réseaux sociaux ?",
+    "options": [
+      "Pour l'esthétique",
+      "Parce qu'elles facilitent l'ingénierie sociale, l'usurpation d'identité et le doxxing",
+      "Pour la conformité",
+      "Pour la performance"
+    ],
+    "answer": 1,
+    "explanation": "Les attaquants construisent des profils à partir de données publiques (OSINT). Limiter la diffusion réduit la surface d'attaque sociale."
+  },
+  {
+    "id": "ccst-05-002",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "beginner",
+    "question": "Pourquoi ne pas accepter des demandes d'amis inconnues ?",
+    "options": [
+      "Pour le style",
+      "Parce qu'ils peuvent collecter vos données, vous cibler ou usurper votre identité",
+      "Pour la performance",
+      "Pour la conformité"
+    ],
+    "answer": 1,
+    "explanation": "Les faux profils servent à l'espionnage, la reconnaissance et la diffusion de contenus malveillants. Vérifier avant d'accepter."
+  },
+  {
+    "id": "ccst-05-003",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "beginner",
+    "question": "Que faire avant de publier une photo de vacances ?",
+    "options": [
+      "La publier immédiatement",
+      "Attendre le retour, restreindre la visibilité, retirer les métadonnées GPS",
+      "Tagger le plus de personnes",
+      "Indiquer l'adresse"
+    ],
+    "answer": 1,
+    "explanation": "Publier en temps réel révèle votre absence. Restreindre aux amis et désactiver la géolocalisation limite les risques."
+  },
+  {
+    "id": "ccst-05-004",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "beginner",
+    "question": "Que signifie doxxing ?",
+    "options": [
+      "Un antivirus",
+      "La publication malveillante d'informations personnelles d'une personne",
+      "Un protocole réseau",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Le doxxing peut mener à du harcèlement, des menaces. Réduire sa présence numérique et signaler les abus."
+  },
+  {
+    "id": "ccst-05-005",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "beginner",
+    "question": "Que faire si votre compte est piraté ?",
+    "options": [
+      "Attendre",
+      "Changer immédiatement le mot de passe, révoquer les sessions, activer MFA",
+      "Créer un nouveau compte",
+      "Ne rien faire"
+    ],
+    "answer": 1,
+    "explanation": "Agir vite limite les dégâts. Vérifier les applications tierces autorisées et les adresses de récupération."
+  },
+  {
+    "id": "ccst-05-006",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "beginner",
+    "question": "Pourquoi vérifier les applications tierces connectées à vos réseaux sociaux ?",
+    "options": [
+      "Pour la performance",
+      "Parce qu'elles accèdent souvent à votre profil, contacts, publications",
+      "Pour la conformité",
+      "Pour l'esthétique"
+    ],
+    "answer": 1,
+    "explanation": "Auditer régulièrement les connexions OAuth, révoquer celles qui ne sont plus utilisées, vérifier les permissions."
+  },
+  {
+    "id": "ccst-05-007",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "beginner",
+    "question": "Pourquoi désactiver la géolocalisation des publications ?",
+    "options": [
+      "Pour la batterie",
+      "Parce qu'elle révèle votre présence et facilite le ciblage physique",
+      "Pour la performance",
+      "Pour la conformité"
+    ],
+    "answer": 1,
+    "explanation": "Les métadonnées EXIF des photos peuvent contenir les coordonnées GPS. Beaucoup de plateformes les suppriment, mais pas toutes."
+  },
+  {
+    "id": "ccst-05-008",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "beginner",
+    "question": "Que faire face à un message d'un ami demandant de l'argent en urgence ?",
+    "options": [
+      "Envoyer immédiatement",
+      "Vérifier par un autre canal (appel) car le compte peut être piraté",
+      "Répondre par e-mail",
+      "Publier un commentaire"
+    ],
+    "answer": 1,
+    "explanation": "L'usurpation de compte est fréquente. Un appel rapide permet de confirmer. Ne jamais envoyer d'argent sans vérification."
+  },
+  {
+    "id": "ccst-05-009",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce que le catfishing ?",
+    "options": [
+      "Un antivirus",
+      "La création d'un faux profil pour tromper ou escroquer une personne",
+      "Un protocole réseau",
+      "Un chiffrement"
+    ],
+    "answer": 0,
+    "explanation": "Le catfishing peut mener à des arnaques sentimentales, du chantage, des demandes financières. Vérification par visio, méfiance face à l'urgence."
+  },
+  {
+    "id": "ccst-05-010",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "intermediate",
+    "question": "Que signifie sextorsion ?",
+    "options": [
+      "Un antivirus",
+      "Le chantage à la publication de contenus intimes",
+      "Un protocole réseau",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Ne jamais payer, ne jamais céder au chantage, signaler à la plateforme et à la police. Le partage de contenus intimes avec un inconnu est risqué."
+  },
+  {
+    "id": "ccst-05-011",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "intermediate",
+    "question": "Pourquoi désactiver la fonction voir les stories avant tout le monde ?",
+    "options": [
+      "Pour la performance",
+      "Parce que ces sites demandent vos identifiants et compromettent votre compte",
+      "Pour la conformité",
+      "Pour l'esthétique"
+    ],
+    "answer": 1,
+    "explanation": "Ces offres sont des phishing classiques. Saisir ses identifiants sur un site tiers équivaut à les donner à l'attaquant."
+  },
+  {
+    "id": "ccst-05-012",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "intermediate",
+    "question": "Quelle est la meilleure défense contre le phishing via messagerie sociale ?",
+    "options": [
+      "Cliquer rapidement",
+      "Vérifier le profil, le contexte, l'URL, et ne jamais saisir d'identifiants via un lien reçu",
+      "Répondre",
+      "Partager"
+    ],
+    "answer": 1,
+    "explanation": "Les attaques sociales ciblent la confiance. Vérification systématique, saisie manuelle de l'URL officielle, activation du MFA."
+  },
+  {
+    "id": "ccst-05-013",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "intermediate",
+    "question": "Que faire face à du cyberharcèlement ?",
+    "options": [
+      "Répondre sur le même ton",
+      "Documenter, bloquer, signaler à la plateforme, et contacter les autorités si nécessaire",
+      "Ignorer uniquement",
+      "Supprimer son compte"
+    ],
+    "answer": 1,
+    "explanation": "Conserver les preuves (captures, dates), utiliser les outils de signalement, contacter les autorités en cas de menaces."
+  },
+  {
+    "id": "ccst-05-014",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "intermediate",
+    "question": "Pourquoi configurer la confidentialité par défaut au maximum ?",
+    "options": [
+      "Pour la performance",
+      "Pour limiter la visibilité des publications aux personnes de confiance",
+      "Pour la conformité",
+      "Pour l'esthétique"
+    ],
+    "answer": 1,
+    "explanation": "Les paramètres par défaut sont souvent trop permissifs. Limiter le profil public, désactiver la recherche par e-mail/téléphone."
+  },
+  {
+    "id": "ccst-05-015",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "intermediate",
+    "question": "Que signifie fake news et quel est son lien avec la sécurité ?",
+    "options": [
+      "Un antivirus",
+      "Une information fausse diffusée massivement, pouvant servir la manipulation ou le phishing",
+      "Un protocole",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Vérifier les sources, croiser les informations, se méfier des titres racoleurs. Les deepfakes amplifient le phénomène."
+  },
+  {
+    "id": "ccst-05-016",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "intermediate",
+    "question": "Quelle est la meilleure pratique pour les mots de passe des réseaux sociaux ?",
+    "options": [
+      "Le même que pour l'e-mail",
+      "Un mot de passe unique et fort, avec MFA activé",
+      "Un mot de passe court",
+      "Aucun mot de passe"
+    ],
+    "answer": 1,
+    "explanation": "Chaque compte doit avoir un mot de passe unique, stocké dans un gestionnaire. Le MFA est indispensable, surtout pour les comptes liés à l'e-mail."
+  },
+  {
+    "id": "ccst-05-017",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que le social engineering via LinkedIn ?",
+    "options": [
+      "Un antivirus",
+      "L'exploitation du réseau professionnel pour du spear phishing ciblé ou de la reconnaissance",
+      "Un protocole",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Les attaquants étudient les postes, projets, technologies, organigrammes pour cibler avec crédibilité. Sensibilisation et vérification."
+  },
+  {
+    "id": "ccst-05-018",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "advanced",
+    "question": "Que signifie fake recruiter scam ?",
+    "options": [
+      "Un antivirus",
+      "Un faux recruteur proposant un emploi pour obtenir des données ou infecter le poste",
+      "Un protocole",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Signature : offre alléchante, entretien par messagerie, demande de documents (CNI, RIB), logiciels à installer. Vérifier l'entreprise."
+  },
+  {
+    "id": "ccst-05-019",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "advanced",
+    "question": "Pourquoi les deepfakes vidéo représentent-ils une menace croissante ?",
+    "options": [
+      "Pour la performance",
+      "Parce qu'ils peuvent tromper sur l'identité et servir à la fraude ou la désinformation",
+      "Pour la conformité",
+      "Pour l'esthétique"
+    ],
+    "answer": 1,
+    "explanation": "Des cas de fraude au dirigeant par visioconférence deepfake sont documentés. La vérification par procédure reste essentielle."
+  },
+  {
+    "id": "ccst-05-020",
+    "domain": "Security on Social Networking Sites",
+    "difficulty": "advanced",
+    "question": "Que signifie OPSEC personnel ?",
+    "options": [
+      "Une politique d'entreprise",
+      "La discipline de limiter et contrôler les informations personnelles diffusées",
+      "Un protocole",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Cohérence des pseudonymes, séparation des identités, gestion des métadonnées, prudence sur les réseaux publics. Adopté par les journalistes et personnels sensibles."
+  },
+  {
+    "id": "ccst-06-001",
+    "domain": "Securing Email Communications",
+    "difficulty": "beginner",
+    "question": "Que signifie SPF ?",
+    "options": [
+      "Secure Password Format",
+      "Sender Policy Framework : liste des serveurs autorisés à envoyer du courrier pour un domaine",
+      "Symmetric Protocol File",
+      "Server Protection Firewall"
+    ],
+    "answer": 1,
+    "explanation": "SPF est un enregistrement DNS TXT listant les IP/serveurs légitimes d'envoi. Il protège l'enveloppe du message."
+  },
+  {
+    "id": "ccst-06-002",
+    "domain": "Securing Email Communications",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce que le phishing ?",
+    "options": [
+      "Une attaque réseau",
+      "Une tentative de tromper un utilisateur pour lui faire révéler des informations",
+      "Un scan de ports",
+      "Un type de chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Le phishing est une forme d'ingénierie sociale par e-mail, SMS (smishing), téléphone (vishing) ou site falsifié."
+  },
+  {
+    "id": "ccst-06-003",
+    "domain": "Securing Email Communications",
+    "difficulty": "beginner",
+    "question": "Comment vérifier l'expéditeur réel d'un e-mail ?",
+    "options": [
+      "Regarder le nom affiché",
+      "Examiner l'adresse complète (le domaine après @)",
+      "Se fier au logo",
+      "Répondre directement"
+    ],
+    "answer": 1,
+    "explanation": "Le nom affiché se falsifie en une seconde. Il faut vérifier le domaine réel et se méfier des domaines ressemblants."
+  },
+  {
+    "id": "ccst-06-004",
+    "domain": "Securing Email Communications",
+    "difficulty": "beginner",
+    "question": "Que faire d'un e-mail avec une pièce jointe facture.pdf.exe ?",
+    "options": [
+      "L'ouvrir pour vérifier",
+      "Ne pas l'ouvrir, le signaler et le supprimer",
+      "Le transférer à un collègue",
+      "Le renommer en .pdf"
+    ],
+    "answer": 1,
+    "explanation": "Double extension = tentative d'exécution déguisée. Ne jamais renommer un fichier suspect : le signaler."
+  },
+  {
+    "id": "ccst-06-005",
+    "domain": "Securing Email Communications",
+    "difficulty": "beginner",
+    "question": "La messagerie classique SMTP chiffre-t-elle par défaut le contenu des messages ?",
+    "options": [
+      "Oui, toujours",
+      "Non : sans TLS (SMTPS/STARTTLS), le message circule en clair entre serveurs",
+      "Seulement en interne",
+      "Uniquement les pièces jointes"
+    ],
+    "answer": 1,
+    "explanation": "SMTP ne chiffre pas nativement. La confidentialité de bout en bout nécessite S/MIME ou PGP. STARTTLS chiffre seulement saut par saut."
+  },
+  {
+    "id": "ccst-06-006",
+    "domain": "Securing Email Communications",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce que le smishing ?",
+    "options": [
+      "Un phishing par SMS",
+      "Un virus des messageries",
+      "Un chiffrement des e-mails",
+      "Une attaque réseau"
+    ],
+    "answer": 0,
+    "explanation": "Le smishing utilise le SMS pour appâter (colis bloqué, amende, compte bancaire). Les liens courts masquent la destination réelle."
+  },
+  {
+    "id": "ccst-06-007",
+    "domain": "Securing Email Communications",
+    "difficulty": "beginner",
+    "question": "Que faire si vous recevez un e-mail d'un expéditeur inconnu avec un lien ?",
+    "options": [
+      "Cliquer pour vérifier",
+      "Ne pas cliquer, supprimer ou signaler",
+      "Répondre",
+      "Transférer"
+    ],
+    "answer": 1,
+    "explanation": "Ne jamais cliquer sur les liens d'e-mails non sollicités. Vérifier par un autre canal si l'expéditeur semble légitime."
+  },
+  {
+    "id": "ccst-06-008",
+    "domain": "Securing Email Communications",
+    "difficulty": "beginner",
+    "question": "Que signifie pièce jointe .docm ?",
+    "options": [
+      "Un document standard",
+      "Un document avec macros, potentiellement dangereux",
+      "Une image",
+      "Un PDF"
+    ],
+    "answer": 1,
+    "explanation": "L'extension .docm indique un document avec macros. Les macros Office restent un vecteur majeur d'infection. Ne pas ouvrir sans vérification."
+  },
+  {
+    "id": "ccst-06-009",
+    "domain": "Securing Email Communications",
+    "difficulty": "intermediate",
+    "question": "Quel est le rôle de DKIM ?",
+    "options": [
+      "Signer cryptographiquement les messages pour garantir leur intégrité",
+      "Lister les IP autorisées",
+      "Chiffrer les e-mails",
+      "Bloquer les pièces jointes"
+    ],
+    "answer": 0,
+    "explanation": "DKIM signe les en-têtes et le corps ; la clé publique est publiée en DNS. Cela garantit l'intégrité et l'origine du message."
+  },
+  {
+    "id": "ccst-06-010",
+    "domain": "Securing Email Communications",
+    "difficulty": "intermediate",
+    "question": "Quel est le rôle de DMARC ?",
+    "options": [
+      "Remplacer SPF et DKIM",
+      "Définir une politique (none/quarantine/reject) et un reporting sur base SPF/DKIM",
+      "Chiffrer les e-mails",
+      "Authentifier l'utilisateur final"
+    ],
+    "answer": 1,
+    "explanation": "DMARC exige un alignement avec le domaine du From et publie une politique ainsi que des adresses de reporting (rua/ruf)."
+  },
+  {
+    "id": "ccst-06-011",
+    "domain": "Securing Email Communications",
+    "difficulty": "intermediate",
+    "question": "Que signifie alignement en DMARC ?",
+    "options": [
+      "La signature doit être valide",
+      "Le domaine utilisé par SPF ou DKIM doit correspondre au domaine du From",
+      "Le message doit être en HTML",
+      "L'IP doit être fixe"
+    ],
+    "answer": 1,
+    "explanation": "L'alignement strict exige l'égalité exacte ; l'alignement souple autorise les sous-domaines. C'est l'alignement qui rend DMARC anti-usurpation."
+  },
+  {
+    "id": "ccst-06-012",
+    "domain": "Securing Email Communications",
+    "difficulty": "intermediate",
+    "question": "Que protège S/MIME ?",
+    "options": [
+      "Le réseau Wi-Fi",
+      "La signature et le chiffrement de bout en bout des e-mails via certificats X.509",
+      "Le stockage cloud",
+      "Les mots de passe"
+    ],
+    "answer": 1,
+    "explanation": "S/MIME permet de signer (authenticité, intégrité) et chiffrer (confidentialité) un message. Nécessite un certificat par utilisateur."
+  },
+  {
+    "id": "ccst-06-013",
+    "domain": "Securing Email Communications",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce que le BEC ?",
+    "options": [
+      "Un chiffrement d'entreprise",
+      "Une usurpation d'identité d'un dirigeant ou d'un partenaire pour obtenir un virement",
+      "Un test d'intrusion",
+      "Une sauvegarde"
+    ],
+    "answer": 1,
+    "explanation": "Le BEC exploite la confiance hiérarchique ou fournisseur. Les pertes annuelles mondiales sont estimées à plusieurs milliards de dollars."
+  },
+  {
+    "id": "ccst-06-014",
+    "domain": "Securing Email Communications",
+    "difficulty": "intermediate",
+    "question": "Comment vérifier une demande de virement urgent d'un dirigeant ?",
+    "options": [
+      "Répondre à l'e-mail",
+      "Appeler le dirigeant sur son numéro officiel connu",
+      "Répondre à un autre e-mail du même fil",
+      "Demander à un collègue de valider"
+    ],
+    "answer": 1,
+    "explanation": "Seul un canal indépendant (numéro officiel) permet de valider. Répondre à l'e-mail ne sert à rien : l'attaquant contrôle la boîte ou usurpe le domaine."
+  },
+  {
+    "id": "ccst-06-015",
+    "domain": "Securing Email Communications",
+    "difficulty": "intermediate",
+    "question": "À quoi sert un enregistrement DMARC en mode p=reject ?",
+    "options": [
+      "Signaler uniquement",
+      "Rejeter les messages non alignés avant livraison",
+      "Quarantaine",
+      "Chiffrer"
+    ],
+    "answer": 1,
+    "explanation": "p=reject demande aux destinataires de rejeter les messages dont SPF et DKIM ne s'alignent pas. C'est la politique la plus stricte et protectrice."
+  },
+  {
+    "id": "ccst-06-016",
+    "domain": "Securing Email Communications",
+    "difficulty": "intermediate",
+    "question": "Que signifie l'usurpation d'adresse e-mail par spoofing ?",
+    "options": [
+      "Modifier le DNS du serveur",
+      "Envoyer un e-mail en falsifiant l'adresse de l'expéditeur",
+      "Intercepter un message",
+      "Chiffrer un message"
+    ],
+    "answer": 1,
+    "explanation": "Le spoofing exploitait l'absence de SPF/DKIM/DMARC. Aujourd'hui souvent couplé à des domaines ressemblants (typosquatting)."
+  },
+  {
+    "id": "ccst-06-017",
+    "domain": "Securing Email Communications",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce qu'une attaque adversary-in-the-middle (AiTM) contre MFA ?",
+    "options": [
+      "Un DDoS",
+      "Un proxy inverse qui relaie la session et vole les cookies après authentification MFA",
+      "Un scan de mots de passe",
+      "Un malware type rootkit"
+    ],
+    "answer": 1,
+    "explanation": "L'AiTM contourne les MFA par SMS et TOTP. Seuls FIDO2/WebAuthn et les politiques d'accès conditionnel liées à l'appareil résistent."
+  },
+  {
+    "id": "ccst-06-018",
+    "domain": "Securing Email Communications",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que MTA-STS ?",
+    "options": [
+      "Un chiffrement de bout en bout",
+      "Un standard permettant de déclarer par DNS une politique TLS obligatoire pour le courrier entrant",
+      "Un antivirus",
+      "Un protocole de sauvegarde"
+    ],
+    "answer": 1,
+    "explanation": "MTA-STS impose TLS et évite le downgrade en clair lors de la livraison SMTP. Complété par DANE/TLSA."
+  },
+  {
+    "id": "ccst-06-019",
+    "domain": "Securing Email Communications",
+    "difficulty": "advanced",
+    "question": "Quel est l'intérêt de BIMI ?",
+    "options": [
+      "Chiffrer les e-mails",
+      "Afficher un logo de marque vérifié dans les clients compatibles",
+      "Signer les messages",
+      "Bloquer les spams"
+    ],
+    "answer": 1,
+    "explanation": "BIMI exige une politique DMARC stricte et un certificat VMC. Il renforce la reconnaissance visuelle des messages légitimes."
+  },
+  {
+    "id": "ccst-06-020",
+    "domain": "Securing Email Communications",
+    "difficulty": "advanced",
+    "question": "Comment fonctionne une attaque thread hijacking ?",
+    "options": [
+      "Un DDoS sur serveur mail",
+      "L'attaquant s'insère dans une conversation e-mail existante pour injecter une demande malveillante",
+      "Un chiffrement du thread",
+      "Un scan de ports"
+    ],
+    "answer": 1,
+    "explanation": "L'attaquant ayant compromis une boîte répond dans un fil existant, avec facture ou lien malveillant. Défense : vérification téléphonique."
+  },
+  {
+    "id": "ccst-07-001",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "beginner",
+    "question": "Que faire avant de prêter son smartphone à un réparateur ?",
+    "options": [
+      "Rien",
+      "Sauvegarder, verrouiller/déconnecter les services sensibles, envisager un effacement à distance après",
+      "Changer la langue",
+      "Changer la coque"
+    ],
+    "answer": 1,
+    "explanation": "Un réparateur pourrait accéder aux données. Bonnes pratiques : sauvegarder, retirer la carte SIM/SD, verrouiller les comptes, changer les mots de passe après."
+  },
+  {
+    "id": "ccst-07-002",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "beginner",
+    "question": "Quelle est la protection la plus importante sur un smartphone perdu ?",
+    "options": [
+      "Un fond d'écran avec contact",
+      "Un code de déverrouillage long ou biométrie + chiffrement du stockage",
+      "Le mode avion",
+      "Un antivirus payant"
+    ],
+    "answer": 1,
+    "explanation": "Le chiffrement par défaut n'est efficace que si le déverrouillage est protégé par un code robuste. Un schéma à 4 points est trivial à observer."
+  },
+  {
+    "id": "ccst-07-003",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "beginner",
+    "question": "Pourquoi ne pas installer d'applications hors des stores officiels ?",
+    "options": [
+      "Pour la vitesse",
+      "Parce que le sideloading contourne les contrôles et expose à des applications malveillantes",
+      "Pour la conformité",
+      "Pour le stockage"
+    ],
+    "answer": 1,
+    "explanation": "Le sideloading (APK tiers) supprime la vérification de l'éditeur et l'analyse automatique. En entreprise, on encadre via MDM."
+  },
+  {
+    "id": "ccst-07-004",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "beginner",
+    "question": "Que faire si une app de lampe torche demande l'accès aux contacts, micro et localisation ?",
+    "options": [
+      "Accepter toutes les permissions",
+      "Refuser les permissions non nécessaires et chercher une alternative",
+      "Désinstaller si elle plante",
+      "Accepter puis couper Internet"
+    ],
+    "answer": 1,
+    "explanation": "Le principe du moindre privilège s'applique aux applications : une permission doit être justifiée par la fonction. Les permissions excessives sont un signal d'alerte."
+  },
+  {
+    "id": "ccst-07-005",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "beginner",
+    "question": "Que signifie BYOD ?",
+    "options": [
+      "Un protocole réseau",
+      "Bring Your Own Device : usage d'appareils personnels pour des activités professionnelles",
+      "Un malware",
+      "Un type de chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Le BYOD impose des politiques claires : MDM/MAM, séparation pro/perso, chiffrement, effacement sélectif en cas de perte."
+  },
+  {
+    "id": "ccst-07-006",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "beginner",
+    "question": "Le jailbreak/root d'un mobile…",
+    "options": [
+      "Améliore la sécurité",
+      "Supprime les protections du système, augmentant fortement le risque",
+      "N'a aucun effet",
+      "Chiffre le mobile"
+    ],
+    "answer": 1,
+    "explanation": "Jailbreak (iOS) et root (Android) cassent le modèle de sécurité de la plateforme. En entreprise, ces appareils sont souvent bloqués."
+  },
+  {
+    "id": "ccst-07-007",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "beginner",
+    "question": "Pourquoi activer le verrouillage automatique de l'écran ?",
+    "options": [
+      "Pour la batterie",
+      "Pour éviter l'accès aux données en cas de vol ou d'oubli",
+      "Pour la performance",
+      "Pour la conformité"
+    ],
+    "answer": 1,
+    "explanation": "Un délai court (30 s à 2 min) et un code/biométrie empêchent l'accès rapide. Combiné avec l'effacement automatique après N échecs."
+  },
+  {
+    "id": "ccst-07-008",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "beginner",
+    "question": "Pourquoi éviter les Wi-Fi publics sur mobile sans VPN ?",
+    "options": [
+      "Pour la batterie",
+      "Parce qu'un attaquant peut intercepter le trafic ou usurper un réseau",
+      "Pour la vitesse",
+      "Pour le stockage"
+    ],
+    "answer": 1,
+    "explanation": "Utiliser le partage de connexion, un VPN d'entreprise, et éviter les opérations sensibles (banque, e-mail pro) sur Wi-Fi public."
+  },
+  {
+    "id": "ccst-07-009",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "intermediate",
+    "question": "Que fait un MDM ?",
+    "options": [
+      "Un antivirus",
+      "Gérer les appareils mobiles : politique, inventaire, chiffrement, effacement à distance",
+      "Un VPN",
+      "Un navigateur"
+    ],
+    "answer": 1,
+    "explanation": "Le MDM industrialise la gestion de flotte. Le MAM se concentre sur les applications et la séparation pro/perso."
+  },
+  {
+    "id": "ccst-07-010",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "intermediate",
+    "question": "Que signifie MAM ?",
+    "options": [
+      "Mobile Application Management : gestion des applications mobiles, séparation pro/perso",
+      "Multi-Account Management",
+      "Mobile Antivirus Module",
+      "Managed Access Mode"
+    ],
+    "answer": 0,
+    "explanation": "MAM protège les données professionnelles dans des conteneurs chiffrés, permettant l'effacement sélectif sans toucher aux données personnelles."
+  },
+  {
+    "id": "ccst-07-011",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "intermediate",
+    "question": "Pourquoi installer les mises à jour mobiles rapidement ?",
+    "options": [
+      "Pour la batterie",
+      "Parce que les exploits mobiles circulent rapidement et que les patchs tardent parfois",
+      "Pour le style",
+      "Pour le stockage"
+    ],
+    "answer": 1,
+    "explanation": "Les exploit kits (Pegasus, Predator) ciblent les failles non patchées. Un appareil hors support ne reçoit plus les correctifs."
+  },
+  {
+    "id": "ccst-07-012",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "intermediate",
+    "question": "Que faire avant de voyager dans un pays à risque ?",
+    "options": [
+      "Rien de spécial",
+      "Réduire les données sensibles, éteindre complètement avant les contrôles, utiliser un appareil de prêt",
+      "Désactiver le verrouillage",
+      "Désactiver le chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Certaines frontières peuvent exiger le déverrouillage. On emporte un appareil propre avec données minimales, chiffré."
+  },
+  {
+    "id": "ccst-07-013",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "intermediate",
+    "question": "Que signifie smishing dans un contexte mobile ?",
+    "options": [
+      "Un phishing par SMS",
+      "Un virus",
+      "Un VPN",
+      "Un antivirus"
+    ],
+    "answer": 0,
+    "explanation": "Le smishing exploite la confiance dans le canal SMS (colis, amende, banque). Les liens courts masquent la cible réelle."
+  },
+  {
+    "id": "ccst-07-014",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "intermediate",
+    "question": "Que fait le remote wipe ?",
+    "options": [
+      "Efface à distance les données de l'appareil",
+      "Chiffre le mobile",
+      "Sauvegarde le mobile",
+      "Bloque le mobile"
+    ],
+    "answer": 0,
+    "explanation": "Le remote wipe est une mesure de dernier recours en cas de perte/vol. Il doit être précédé d'une sauvegarde et d'une politique de séparation pro/perso."
+  },
+  {
+    "id": "ccst-07-015",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "intermediate",
+    "question": "Que signifie zero-click exploit sur mobile ?",
+    "options": [
+      "Un exploit qui ne nécessite aucune interaction de la victime",
+      "Un antivirus",
+      "Un VPN",
+      "Un rançongiciel"
+    ],
+    "answer": 0,
+    "explanation": "Exemple : Pegasus exploite des failles iMessage ou WhatsApp sans interaction. La défense repose sur les mises à jour rapides et le durcissement."
+  },
+  {
+    "id": "ccst-07-016",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "intermediate",
+    "question": "Que signifie la séparation des données pro/perso ?",
+    "options": [
+      "Deux appareils distincts",
+      "Un conteneur chiffré pour les données pro, isolé du reste du téléphone",
+      "Un disque externe",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "Les solutions MAM créent un conteneur chiffré : effaçable sélectivement, sans accès aux données personnelles."
+  },
+  {
+    "id": "ccst-07-017",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "advanced",
+    "question": "Que fait l'attestation matérielle sur Android/iOS ?",
+    "options": [
+      "Un antivirus",
+      "Un mécanisme prouvant qu'un appareil est authentique et non compromis",
+      "Un chiffrement",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "SafetyNet/Play Integrity (Android) et DeviceCheck/App Attest (iOS) permettent aux applications d'évaluer la fiabilité de la plateforme."
+  },
+  {
+    "id": "ccst-07-018",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "advanced",
+    "question": "Que protège Android Keystore / iOS Secure Enclave ?",
+    "options": [
+      "Le réseau",
+      "Le stockage des clés cryptographiques dans un matériel sécurisé isolé",
+      "La batterie",
+      "Le GPS"
+    ],
+    "answer": 1,
+    "explanation": "Les clés restent dans l'enclave et ne peuvent être extraites ; les opérations cryptographiques s'y déroulent."
+  },
+  {
+    "id": "ccst-07-019",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "advanced",
+    "question": "Que signifie EMM et en quoi diffère-t-il du MDM ?",
+    "options": [
+      "Aucune différence",
+      "Enterprise Mobility Management englobe MDM + MAM + identité + contenu",
+      "EMM est propriétaire",
+      "MDM est plus récent"
+    ],
+    "answer": 1,
+    "explanation": "L'EMM unifie la gestion des appareils, des applications, du contenu et des identités. Aujourd'hui souvent intégré aux suites UEM."
+  },
+  {
+    "id": "ccst-07-020",
+    "domain": "Securing Mobile Devices",
+    "difficulty": "advanced",
+    "question": "Comment détecter un stalkerware sur son mobile ?",
+    "options": [
+      "En changeant la coque",
+      "En surveillant batterie, données, applications inconnues, certificats installés",
+      "En désactivant le GPS",
+      "En changeant de numéro"
+    ],
+    "answer": 1,
+    "explanation": "Le stalkerware consomme batterie/data, masque son icône, ou exige l'installation d'un certificat. Détection via scan et inspection des profils."
+  },
+  {
+    "id": "ccst-08-001",
+    "domain": "Securing the Cloud",
+    "difficulty": "beginner",
+    "question": "Dans le modèle de responsabilité partagée, le client reste responsable de…",
+    "options": [
+      "La sécurité physique des datacenters",
+      "La sécurité de ses données, de ses accès et de ses configurations",
+      "La maintenance de l'hyperviseur",
+      "La disponibilité réseau opérateur"
+    ],
+    "answer": 1,
+    "explanation": "Le fournisseur sécurise le cloud (infrastructure) ; le client sécurise ce qu'il met dans le cloud (données, identités, configurations)."
+  },
+  {
+    "id": "ccst-08-002",
+    "domain": "Securing the Cloud",
+    "difficulty": "beginner",
+    "question": "Que signifie IaaS ?",
+    "options": [
+      "Infrastructure as a Service : VMs, stockage, réseau fournis par le cloud",
+      "Internet as a Service",
+      "Identity as a Service",
+      "Integration as a Service"
+    ],
+    "answer": 0,
+    "explanation": "IaaS fournit l'infrastructure virtualisée. Le client gère l'OS et tout ce qui est au-dessus. Le contrôle est maximal, la responsabilité client également."
+  },
+  {
+    "id": "ccst-08-003",
+    "domain": "Securing the Cloud",
+    "difficulty": "beginner",
+    "question": "Que signifie SaaS ?",
+    "options": [
+      "Software as a Service : application complète fournie par le fournisseur",
+      "Security as a Service",
+      "Server as a Service",
+      "Storage as a Service"
+    ],
+    "answer": 0,
+    "explanation": "SaaS : le client utilise l'application (M365, Salesforce, Gmail). Sa responsabilité porte sur les comptes, le partage de données et les configurations."
+  },
+  {
+    "id": "ccst-08-004",
+    "domain": "Securing the Cloud",
+    "difficulty": "beginner",
+    "question": "Pourquoi activer le MFA sur les comptes cloud est-il critique ?",
+    "options": [
+      "Pour la performance",
+      "Parce que la compromission d'un compte admin cloud donne accès à toutes les données et configurations",
+      "Pour la conformité uniquement",
+      "Pour économiser"
+    ],
+    "answer": 1,
+    "explanation": "La majorité des incidents cloud proviennent de comptes compromis sans MFA. On ajoute aussi des accès conditionnels et des alertes."
+  },
+  {
+    "id": "ccst-08-005",
+    "domain": "Securing the Cloud",
+    "difficulty": "beginner",
+    "question": "Que faut-il éviter de stocker dans un bucket cloud public ?",
+    "options": [
+      "Des images de démo",
+      "Des données personnelles, secrets, sauvegardes, fichiers internes",
+      "Des logos",
+      "Des fichiers statiques"
+    ],
+    "answer": 1,
+    "explanation": "Les buckets publics exposent massivement des données. Politique : refuser par défaut, vérifier l'accès, chiffrer, journaliser."
+  },
+  {
+    "id": "ccst-08-006",
+    "domain": "Securing the Cloud",
+    "difficulty": "beginner",
+    "question": "Que signifie cloud privé ?",
+    "options": [
+      "Un cloud personnel gratuit",
+      "Une infrastructure cloud dédiée à une organisation",
+      "Un cloud sans sécurité",
+      "Un cloud sans facturation"
+    ],
+    "answer": 1,
+    "explanation": "Le cloud privé offre l'isolation et le contrôle d'un datacenter avec l'élasticité du cloud. L'hybride combine public et privé."
+  },
+  {
+    "id": "ccst-08-007",
+    "domain": "Securing the Cloud",
+    "difficulty": "beginner",
+    "question": "Que garantit le chiffrement côté serveur (SSE) dans le cloud ?",
+    "options": [
+      "Le chiffrement en transit",
+      "Le chiffrement des données au repos sur le stockage du fournisseur",
+      "Le chiffrement côté client uniquement",
+      "Le chiffrement du réseau"
+    ],
+    "answer": 1,
+    "explanation": "SSE chiffre les objets au repos avec des clés gérées par le fournisseur ou par le client (KMS, BYOK, HYOK). La confidentialité côté client nécessite un chiffrement côté client."
+  },
+  {
+    "id": "ccst-08-008",
+    "domain": "Securing the Cloud",
+    "difficulty": "beginner",
+    "question": "Que faire si vous recevez un e-mail d'un fournisseur cloud demandant vos identifiants ?",
+    "options": [
+      "Répondre avec les identifiants",
+      "Ne pas répondre, vérifier directement sur le site officiel et signaler",
+      "Cliquer sur le lien",
+      "Transférer"
+    ],
+    "answer": 1,
+    "explanation": "Aucun fournisseur légitime ne demande vos identifiants par e-mail. C'est du phishing. Vérifiez directement sur le site officiel."
+  },
+  {
+    "id": "ccst-08-009",
+    "domain": "Securing the Cloud",
+    "difficulty": "intermediate",
+    "question": "Que signifie infrastructure as code et quel est son enjeu de sécurité ?",
+    "options": [
+      "Un type de serveur",
+      "La gestion de l'infrastructure via du code versionné : les erreurs de configuration deviennent des vulnérabilités systématiques",
+      "Un protocole réseau",
+      "Un antivirus"
+    ],
+    "answer": 1,
+    "explanation": "L'IaC (Terraform, CloudFormation) industrialise le déploiement mais aussi les erreurs. On y intègre des contrôles de sécurité (scan, policy as code)."
+  },
+  {
+    "id": "ccst-08-010",
+    "domain": "Securing the Cloud",
+    "difficulty": "intermediate",
+    "question": "Que fait un CSPM ?",
+    "options": [
+      "Un antivirus",
+      "Détecter les mauvaises configurations cloud (buckets publics, IAM permissif)",
+      "Un VPN",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "Le CSPM évalue en continu la conformité aux bonnes pratiques (CIS, PCI, ISO) et signale les dérives. Essentiel dans les environnements multi-cloud."
+  },
+  {
+    "id": "ccst-08-011",
+    "domain": "Securing the Cloud",
+    "difficulty": "intermediate",
+    "question": "Pourquoi les clés d'API ne doivent-elles pas être en clair dans du code source ?",
+    "options": [
+      "Pour la lisibilité",
+      "Parce qu'elles donnent un accès direct aux ressources cloud, souvent sans MFA ni limitation",
+      "Pour la performance",
+      "Pour la conformité uniquement"
+    ],
+    "answer": 1,
+    "explanation": "Les fuites GitHub (clés AWS, tokens) sont une cause majeure d'incidents. Utiliser un vault, des rôles temporaires, une rotation automatique."
+  },
+  {
+    "id": "ccst-08-012",
+    "domain": "Securing the Cloud",
+    "difficulty": "intermediate",
+    "question": "Que signifie le principe du moindre privilège appliqué à IAM ?",
+    "options": [
+      "Ne donner aucun droit",
+      "N'attribuer que les droits strictement nécessaires, pour la durée nécessaire",
+      "Donner tous les droits",
+      "Attribuer les droits par service"
+    ],
+    "answer": 1,
+    "explanation": "On utilise des rôles plutôt que des utilisateurs, des conditions (source IP, MFA), des politiques granulaires, et on surveille les accès inutilisés."
+  },
+  {
+    "id": "ccst-08-013",
+    "domain": "Securing the Cloud",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'un role assumption dans AWS ?",
+    "options": [
+      "Un paiement",
+      "L'obtention temporaire d'un rôle IAM via STS, produisant des identifiants à durée limitée",
+      "Un type de serveur",
+      "Un scan réseau"
+    ],
+    "answer": 1,
+    "explanation": "On préfère les rôles temporaires aux clés statiques. Les identifiants STS expirent, limitant la fenêtre d'exploitation en cas de fuite."
+  },
+  {
+    "id": "ccst-08-014",
+    "domain": "Securing the Cloud",
+    "difficulty": "intermediate",
+    "question": "Quelle est la différence entre cloud public, privé et hybride ?",
+    "options": [
+      "Aucune",
+      "Public : mutualisé ; privé : dédié ; hybride : combinaison",
+      "Public : gratuit ; privé : payant",
+      "Hybride : sans sécurité"
+    ],
+    "answer": 1,
+    "explanation": "Le choix dépend de la sensibilité des données, des contraintes réglementaires, du coût, de l'agilité. L'hybride est fréquent."
+  },
+  {
+    "id": "ccst-08-015",
+    "domain": "Securing the Cloud",
+    "difficulty": "intermediate",
+    "question": "Pourquoi activer la journalisation (CloudTrail, Activity Log) ?",
+    "options": [
+      "Pour la facturation",
+      "Pour tracer les actions sur les ressources cloud, indispensable en investigation",
+      "Pour la performance",
+      "Pour le stockage"
+    ],
+    "answer": 1,
+    "explanation": "La journalisation permet la détection d'anomalies (création de comptes, modification IAM) et fournit les preuves en cas d'incident."
+  },
+  {
+    "id": "ccst-08-016",
+    "domain": "Securing the Cloud",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce que le shadow IT ?",
+    "options": [
+      "Un antivirus",
+      "L'usage de services cloud non approuvés par la DSI, hors périmètre de sécurité",
+      "Un type de pare-feu",
+      "Un protocole"
+    ],
+    "answer": 1,
+    "explanation": "Le shadow IT expose les données hors des contrôles (MFA, DLP, journalisation). Défenses : CASB, DLP, sensibilisation, offre alternative interne."
+  },
+  {
+    "id": "ccst-08-017",
+    "domain": "Securing the Cloud",
+    "difficulty": "advanced",
+    "question": "Que désigne le confused deputy dans le cloud ?",
+    "options": [
+      "Un bug de routage",
+      "Un service légitime abusé par un tiers pour agir avec ses privilèges",
+      "Un type de chiffrement",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "Exemple : un rôle IAM qui fait confiance à un service tiers, permettant à un attaquant de faire agir ce service en son nom. Correctif : conditions stricts (ExternalId, SourceAccount)."
+  },
+  {
+    "id": "ccst-08-018",
+    "domain": "Securing the Cloud",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que le workload identity en Kubernetes/cloud ?",
+    "options": [
+      "Un antivirus",
+      "Un mécanisme attribuant une identité à un pod pour accéder aux ressources cloud sans secret statique",
+      "Un type de réseau",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "IRSA (AWS), Workload Identity (GCP, Azure) lient un service account K8s à un rôle cloud. Plus de secrets statiques dans les manifests."
+  },
+  {
+    "id": "ccst-08-019",
+    "domain": "Securing the Cloud",
+    "difficulty": "advanced",
+    "question": "Que fait un CASB ?",
+    "options": [
+      "Un chiffrement",
+      "Un point de contrôle entre utilisateurs et services cloud : visibilité, DLP, conformité, détection d'ombres",
+      "Un VPN",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "Le CASB applique des politiques sur l'usage des services cloud, en mode API ou proxy, avec découverte des applications utilisées."
+  },
+  {
+    "id": "ccst-08-020",
+    "domain": "Securing the Cloud",
+    "difficulty": "advanced",
+    "question": "Que signifie multi-cloud et quel est son enjeu sécurité ?",
+    "options": [
+      "Un seul cloud",
+      "L'usage de plusieurs fournisseurs cloud : la complexité augmente, la cohérence des politiques devient critique",
+      "Un cloud mutualisé",
+      "Un cloud privé"
+    ],
+    "answer": 1,
+    "explanation": "Multi-cloud réduit la dépendance mais multiplie les surfaces, les modèles IAM, les outils. On privilégie la cohérence (CSPM multi-cloud, IaC)."
+  },
+  {
+    "id": "ccst-09-001",
+    "domain": "Securing Network Connections",
+    "difficulty": "beginner",
+    "question": "Pourquoi éviter les opérations sensibles sur un Wi-Fi public ouvert ?",
+    "options": [
+      "Le débit est insuffisant",
+      "Un attaquant peut intercepter le trafic, créer un faux point d'accès ou détourner le DNS",
+      "Les réseaux publics ne supportent pas HTTPS",
+      "Les opérateurs bloquent"
+    ],
+    "answer": 1,
+    "explanation": "Sur un réseau ouvert, le trafic non chiffré est lisible. Un evil twin peut se faire passer pour le réseau légitime. On utilise un VPN."
+  },
+  {
+    "id": "ccst-09-002",
+    "domain": "Securing Network Connections",
+    "difficulty": "beginner",
+    "question": "Que signifie SSID ?",
+    "options": [
+      "Secure Socket ID",
+      "Le nom d'un réseau Wi-Fi",
+      "Un protocole de chiffrement",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "Le SSID identifie le réseau. Le masquer n'apporte pas de sécurité réelle : il est de toute façon diffusé par les clients."
+  },
+  {
+    "id": "ccst-09-003",
+    "domain": "Securing Network Connections",
+    "difficulty": "beginner",
+    "question": "Que fait un routeur domestique par défaut ?",
+    "options": [
+      "Rien",
+      "Diffuse le SSID, propose un mot de passe par défaut qu'il faut changer",
+      "Bloque tout",
+      "Chiffre tout"
+    ],
+    "answer": 1,
+    "explanation": "Changer le mot de passe admin, la clé Wi-Fi, désactiver WPS, mettre à jour le firmware font partie du durcissement."
+  },
+  {
+    "id": "ccst-09-004",
+    "domain": "Securing Network Connections",
+    "difficulty": "beginner",
+    "question": "Que signifie WPA3 ?",
+    "options": [
+      "Un algorithme de chiffrement de fichiers",
+      "Le protocole Wi-Fi le plus récent, remplaçant WPA2 avec SAE",
+      "Un antivirus",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "SAE remplace la poignée de main PSK vulnérable aux attaques hors ligne. WPA3 ajoute OWE sur les réseaux ouverts."
+  },
+  {
+    "id": "ccst-09-005",
+    "domain": "Securing Network Connections",
+    "difficulty": "beginner",
+    "question": "Pourquoi désactiver WPS sur une box ?",
+    "options": [
+      "Pour économiser l'énergie",
+      "Parce que WPS est vulnérable à des attaques par PIN (brute force)",
+      "Pour accélérer le réseau",
+      "Pour se conformer au RGPD"
+    ],
+    "answer": 1,
+    "explanation": "WPS PIN à 8 chiffres peut être cassé en quelques heures. Le bouton WPS physique reste préférable s'il est nécessaire."
+  },
+  {
+    "id": "ccst-09-006",
+    "domain": "Securing Network Connections",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce qu'un VPN ?",
+    "options": [
+      "Un antivirus",
+      "Un tunnel chiffré entre un appareil et un serveur, protégeant la confidentialité du trafic",
+      "Un pare-feu",
+      "Un navigateur"
+    ],
+    "answer": 1,
+    "explanation": "Le VPN protège la confidentialité et l'intégrité du trafic entre le poste et la passerelle. Il n'apporte ni anonymat ni protection contre les malwares."
+  },
+  {
+    "id": "ccst-09-007",
+    "domain": "Securing Network Connections",
+    "difficulty": "beginner",
+    "question": "Comment se protéger sur un réseau Wi-Fi d'hôtel ?",
+    "options": [
+      "Utiliser le Wi-Fi sans précaution",
+      "Utiliser un VPN d'entreprise ou le partage de connexion mobile",
+      "Désactiver HTTPS",
+      "Désactiver le pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "Le Wi-Fi d'hôtel peut être surveillé. Un VPN d'entreprise protège les flux professionnels ; le partage mobile évite le réseau public."
+  },
+  {
+    "id": "ccst-09-008",
+    "domain": "Securing Network Connections",
+    "difficulty": "beginner",
+    "question": "Que faire si votre box Internet propose un mot de passe admin par défaut ?",
+    "options": [
+      "Le garder",
+      "Le changer immédiatement pour un mot de passe fort et unique",
+      "Le noter sur un post-it",
+      "Le partager"
+    ],
+    "answer": 1,
+    "explanation": "Les mots de passe admin par défaut (admin/admin) sont massivement exploités. Changer le mot de passe admin et la clé Wi-Fi est indispensable."
+  },
+  {
+    "id": "ccst-09-009",
+    "domain": "Securing Network Connections",
+    "difficulty": "intermediate",
+    "question": "Quel est l'apport principal de WPA3 par rapport à WPA2 ?",
+    "options": [
+      "Supprime le mot de passe",
+      "Protège contre les attaques par dictionnaire hors ligne via SAE, chiffre les réseaux ouverts (OWE)",
+      "Augmente le débit",
+      "Rend le SSID invisible"
+    ],
+    "answer": 1,
+    "explanation": "SAE élimine la capture de la poignée de main PSK cassable hors ligne. WPA3 ajoute OWE sur les réseaux publics."
+  },
+  {
+    "id": "ccst-09-010",
+    "domain": "Securing Network Connections",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'un evil twin ?",
+    "options": [
+      "Un jumeau numérique",
+      "Un faux point d'accès imitant un réseau légitime pour intercepter le trafic",
+      "Un malware",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "L'attaquant diffuse un SSID identique. Défenses : 802.1X/EAP-TLS, vérification du certificat serveur, VPN, sensibilisation."
+  },
+  {
+    "id": "ccst-09-011",
+    "domain": "Securing Network Connections",
+    "difficulty": "intermediate",
+    "question": "Quel est le rôle d'un pare-feu à états (stateful) ?",
+    "options": [
+      "Analyser les pièces jointes",
+      "Autoriser/bloquer selon des règles et suivre l'état des connexions établies",
+      "Chiffrer les communications",
+      "Authentifier les utilisateurs"
+    ],
+    "answer": 1,
+    "explanation": "Il maintient une table d'états permettant de laisser revenir le trafic des connexions légitimes."
+  },
+  {
+    "id": "ccst-09-012",
+    "domain": "Securing Network Connections",
+    "difficulty": "intermediate",
+    "question": "Pourquoi segmenter un réseau (VLAN, DMZ) ?",
+    "options": [
+      "Accélérer les transferts",
+      "Limiter la propagation latérale d'une compromission entre zones de sensibilité différente",
+      "Réduire les licences",
+      "Se conformer uniquement"
+    ],
+    "answer": 1,
+    "explanation": "La segmentation cloisonne les flux : un poste compromis en zone bureautique ne doit pas atteindre directement les serveurs sensibles."
+  },
+  {
+    "id": "ccst-09-013",
+    "domain": "Securing Network Connections",
+    "difficulty": "intermediate",
+    "question": "Que fait un IDS/IPS ?",
+    "options": [
+      "Un antivirus",
+      "Détecter (IDS) ou bloquer (IPS) des activités réseau suspectes",
+      "Chiffrer le réseau",
+      "Router le trafic"
+    ],
+    "answer": 1,
+    "explanation": "Un IDS alerte, un IPS bloque. Le mode IPS comporte un risque de faux positifs bloquant du trafic légitime."
+  },
+  {
+    "id": "ccst-09-014",
+    "domain": "Securing Network Connections",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce que le DNS spoofing ?",
+    "options": [
+      "Un scan réseau",
+      "Une réponse DNS falsifiée redirigeant l'utilisateur vers une adresse IP malveillante",
+      "Un type de spam",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "Défenses : DNSSEC, DoH/DoT, résolveurs de confiance. Un utilisateur trompé peut saisir ses identifiants sur un site factice."
+  },
+  {
+    "id": "ccst-09-015",
+    "domain": "Securing Network Connections",
+    "difficulty": "intermediate",
+    "question": "Pourquoi ne pas utiliser de compte administrateur de domaine pour se connecter à un poste de travail ?",
+    "options": [
+      "Pour économiser les licences",
+      "Parce que le vol du hash du compte admin permet la compromission totale du domaine",
+      "Pour la rapidité",
+      "Pour se conformer au RGPD"
+    ],
+    "answer": 1,
+    "explanation": "Le principe de séparation : un compte utilisateur pour la bureautique, un compte admin dédié pour l'administration, sur des postes d'administration distincts."
+  },
+  {
+    "id": "ccst-09-016",
+    "domain": "Securing Network Connections",
+    "difficulty": "intermediate",
+    "question": "Que fait le protocole 802.1X ?",
+    "options": [
+      "Un chiffrement",
+      "Un contrôle d'accès réseau basé sur l'authentification (EAP) avant l'attribution d'une adresse",
+      "Un routage",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "802.1X exige une authentification (par exemple EAP-TLS avec certificat) avant l'accès au réseau filaire ou Wi-Fi."
+  },
+  {
+    "id": "ccst-09-017",
+    "domain": "Securing Network Connections",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que l'attaque KRACK contre WPA2 ?",
+    "options": [
+      "Un virus",
+      "Une exploitation de la poignée de main 4-way pour rejouer et déchiffrer des paquets",
+      "Un DoS",
+      "Un type de phishing"
+    ],
+    "answer": 1,
+    "explanation": "KRACK (2017) exploite la réinstallation de clé. Correctifs éditeurs et WPA3 réduisent le risque. La mise à jour des firmwares est critique."
+  },
+  {
+    "id": "ccst-09-018",
+    "domain": "Securing Network Connections",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que le Evil Maid ?",
+    "options": [
+      "Une attaque réseau",
+      "Une attaque physique consistant à modifier un système non surveillé pour intercepter les secrets",
+      "Un malware de messagerie",
+      "Un type de rançongiciel"
+    ],
+    "answer": 1,
+    "explanation": "Défenses : chiffrement du disque avec TPM+PIN, Secure Boot, scellement du châssis, surveillance physique."
+  },
+  {
+    "id": "ccst-09-019",
+    "domain": "Securing Network Connections",
+    "difficulty": "advanced",
+    "question": "Quel est l'intérêt de DNSSEC ?",
+    "options": [
+      "Chiffrer les requêtes",
+      "Garantir l'intégrité et l'authenticité des réponses DNS par signature cryptographique",
+      "Accélérer le DNS",
+      "Bloquer les publicités"
+    ],
+    "answer": 1,
+    "explanation": "DNSSEC signe les zones DNS. Il n'assure pas la confidentialité (d'où DoH/DoT) mais empêche l'empoisonnement par des réponses falsifiées."
+  },
+  {
+    "id": "ccst-09-020",
+    "domain": "Securing Network Connections",
+    "difficulty": "advanced",
+    "question": "Que signifie micro-segmentation dans un datacenter ?",
+    "options": [
+      "Un découpage en petits VLAN physiques",
+      "Une segmentation fine au niveau workload (pare-feu distribué)",
+      "Un chiffrement",
+      "Un scan réseau"
+    ],
+    "answer": 1,
+    "explanation": "La micro-segmentation applique des politiques au niveau de chaque VM/conteneur, limitant drastiquement les mouvements latéraux."
+  },
+  {
+    "id": "ccst-10-001",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "beginner",
+    "question": "Que recommande la règle 3-2-1 ?",
+    "options": [
+      "3 sauvegardes, 2 supports, 1 copie hors site",
+      "3 copies en ligne, 2 chiffrées, 1 quotidienne",
+      "3 serveurs, 2 datacenters, 1 admin",
+      "3 mois d'historique, 2 ans d'archivage, 1 restauration"
+    ],
+    "answer": 0,
+    "explanation": "Trois copies, deux supports distincts, une externalisée. On y ajoute souvent un « 1 » pour une copie immuable/hors ligne."
+  },
+  {
+    "id": "ccst-10-002",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce qu'une sauvegarde complète ?",
+    "options": [
+      "Une copie de tous les fichiers depuis la dernière",
+      "Une copie intégrale de la source",
+      "Une copie des modifications",
+      "Un clone du serveur"
+    ],
+    "answer": 1,
+    "explanation": "La sauvegarde complète copie tout le jeu de données. Coûteuse mais restauration simple. Combinée à des différentielles/incrémentales."
+  },
+  {
+    "id": "ccst-10-003",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "beginner",
+    "question": "Que signifie RTO ?",
+    "options": [
+      "Real Time Operation",
+      "Recovery Time Objective : durée maximale acceptable d'interruption",
+      "Recovery Test Output",
+      "Réplication en temps réel"
+    ],
+    "answer": 1,
+    "explanation": "Le RTO définit combien de temps le service peut être indisponible. Il guide l'architecture (site de secours actif/actif, actif/passif)."
+  },
+  {
+    "id": "ccst-10-004",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "beginner",
+    "question": "Que signifie RPO ?",
+    "options": [
+      "Recovery Point Objective : perte de données maximale acceptable exprimée en durée",
+      "Real Processing Order",
+      "Remote Protocol Object",
+      "Retention Period Optimizer"
+    ],
+    "answer": 0,
+    "explanation": "Le RPO détermine la fréquence des sauvegardes ou de la réplication. Un RPO de 1 h implique au moins une sauvegarde horaire."
+  },
+  {
+    "id": "ccst-10-005",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "beginner",
+    "question": "Pourquoi tester régulièrement la restauration ?",
+    "options": [
+      "Pour libérer de l'espace",
+      "Parce qu'une sauvegarde non testée n'est pas une sauvegarde",
+      "Pour respecter une obligation fiscale",
+      "Pour ralentir le système"
+    ],
+    "answer": 1,
+    "explanation": "Les exercices de restauration révèlent les erreurs de configuration, les manques de procédure, les médias inutilisables."
+  },
+  {
+    "id": "ccst-10-006",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "beginner",
+    "question": "Où stocker la copie hors site ?",
+    "options": [
+      "Sur le même serveur",
+      "Dans un site distant, chez un tiers de confiance ou dans le cloud",
+      "Sur le poste utilisateur",
+      "Sur une clé USB"
+    ],
+    "answer": 1,
+    "explanation": "Une copie hors site protège contre les sinistres locaux (incendie, inondation, vol, rançongiciel)."
+  },
+  {
+    "id": "ccst-10-007",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "beginner",
+    "question": "Qu'est-ce qu'une sauvegarde incrémentale ?",
+    "options": [
+      "Une sauvegarde complète",
+      "Une sauvegarde des modifications depuis la dernière sauvegarde",
+      "Une sauvegarde des modifications depuis la dernière complète",
+      "Une copie du registre"
+    ],
+    "answer": 1,
+    "explanation": "Chaque incrément contient les changements depuis la sauvegarde précédente. Restauration = complète + tous les incréments dans l'ordre."
+  },
+  {
+    "id": "ccst-10-008",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "beginner",
+    "question": "Pourquoi chiffrer les sauvegardes ?",
+    "options": [
+      "Pour économiser l'espace",
+      "Pour protéger la confidentialité en cas de vol ou de compromission du support",
+      "Pour accélérer la restauration",
+      "Pour respecter les bonnes pratiques uniquement"
+    ],
+    "answer": 1,
+    "explanation": "Une sauvegarde non chiffrée volée expose toutes les données. La clé de chiffrement doit être stockée séparément."
+  },
+  {
+    "id": "ccst-10-009",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'une sauvegarde immuable ?",
+    "options": [
+      "Une sauvegarde non chiffrée",
+      "Une sauvegarde qui ne peut être modifiée ou supprimée pendant une période définie",
+      "Une sauvegarde en clair",
+      "Une sauvegarde temporaire"
+    ],
+    "answer": 1,
+    "explanation": "Le WORM ou la rétention légale empêchent la suppression par un attaquant. Essentiel contre les rançongiciels qui ciblent les sauvegardes."
+  },
+  {
+    "id": "ccst-10-010",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "intermediate",
+    "question": "Quelle est la différence entre PRA et PCA ?",
+    "options": [
+      "Aucune",
+      "Le PRA traite la continuité des services ; le PCA couvre l'ensemble de l'activité",
+      "Le PRA est plus récent",
+      "Le PCA ne concerne que l'informatique"
+    ],
+    "answer": 1,
+    "explanation": "Le PRA restaure les SI après sinistre. Le PCA englobe les processus métier, les personnes, les locaux et les communications en mode dégradé."
+  },
+  {
+    "id": "ccst-10-011",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "intermediate",
+    "question": "Que désigne le site de secours à chaud (hot site) ?",
+    "options": [
+      "Un site non préparé",
+      "Un site entièrement équipé et synchronisé, opérationnel en quelques minutes/heures",
+      "Un site avec sauvegardes sur bandes",
+      "Un site hors contrat"
+    ],
+    "answer": 1,
+    "explanation": "Hot site : prêt à reprendre immédiatement. Warm site : équipement présent mais données récentes à restaurer. Cold site : locaux vides à équiper."
+  },
+  {
+    "id": "ccst-10-012",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "intermediate",
+    "question": "Que fait la déduplication dans une solution de sauvegarde ?",
+    "options": [
+      "Chiffre les données",
+      "Élimine les blocs de données redondants pour réduire le volume stocké",
+      "Accélère la restauration uniquement",
+      "Compresse les images"
+    ],
+    "answer": 1,
+    "explanation": "La déduplication identifie les blocs identiques et ne les stocke qu'une fois. Très efficace sur les sauvegardes répétées."
+  },
+  {
+    "id": "ccst-10-013",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "intermediate",
+    "question": "Qu'est-ce qu'un snapshot en stockage ?",
+    "options": [
+      "Une photo du serveur",
+      "Une copie ponctuelle cohérente d'un volume, souvent avec copie sur écriture",
+      "Une sauvegarde hors site",
+      "Un clone physique"
+    ],
+    "answer": 1,
+    "explanation": "Le snapshot n'est pas une sauvegarde complète : il dépend du volume source. Il complète mais ne remplace pas une sauvegarde indépendante."
+  },
+  {
+    "id": "ccst-10-014",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "intermediate",
+    "question": "Que signifie sauvegarde différentielle ?",
+    "options": [
+      "Une sauvegarde des modifications depuis la dernière complète",
+      "Une sauvegarde des modifications depuis la dernière sauvegarde",
+      "Une copie du registre",
+      "Un clone"
+    ],
+    "answer": 0,
+    "explanation": "Chaque différentielle contient tous les changements depuis la dernière complète. Restauration = complète + dernière différentielle."
+  },
+  {
+    "id": "ccst-10-015",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "intermediate",
+    "question": "Que doit contenir un plan de continuité informatique ?",
+    "options": [
+      "Uniquement la liste des serveurs",
+      "Les procédures de bascule, les responsabilités, les contacts, les scénarios, les tests",
+      "Un antivirus",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "Le PCI documente les scénarios, les procédures de bascule, les ressources critiques, les contacts 24/7 et le calendrier des tests."
+  },
+  {
+    "id": "ccst-10-016",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "intermediate",
+    "question": "Que signifie air gap ?",
+    "options": [
+      "Une isolation réseau totale et physique entre une sauvegarde et le reste du SI",
+      "Un VPN",
+      "Un chiffrement",
+      "Un pare-feu"
+    ],
+    "answer": 0,
+    "explanation": "L'air gap empêche tout accès réseau à la copie. On combine souvent avec des robots de bandes physiques ou des appliances à bascule manuelle."
+  },
+  {
+    "id": "ccst-10-017",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "advanced",
+    "question": "Que sont les 3-2-1-1-0 ?",
+    "options": [
+      "Une norme ISO",
+      "Une extension de la règle 3-2-1 : 3 copies, 2 supports, 1 hors site, 1 hors ligne/immuable, 0 erreur de restauration vérifiée",
+      "Un algorithme",
+      "Un protocole réseau"
+    ],
+    "answer": 1,
+    "explanation": "Le 1 hors ligne (ou immuable) et le 0 erreur (restauration testée) renforcent la résilience face aux menaces modernes."
+  },
+  {
+    "id": "ccst-10-018",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce qu'un test de bascule à blanc ?",
+    "options": [
+      "Un test avec les utilisateurs",
+      "Un test technique de bascule vers le site de secours, sans mise en production",
+      "Un test destructif",
+      "Un test annuel obligatoire"
+    ],
+    "answer": 1,
+    "explanation": "On valide les procédures, la disponibilité des données, la connectivité, la durée réelle de reprise, sans impacter la production."
+  },
+  {
+    "id": "ccst-10-019",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "advanced",
+    "question": "Quelle est la menace principale d'un cyber-sinistre ?",
+    "options": [
+      "Un incendie",
+      "Un incident cyber (rançongiciel, sabotage) pouvant compromettre simultanément production ET sauvegardes",
+      "Une coupure électrique",
+      "Un vol matériel"
+    ],
+    "answer": 1,
+    "explanation": "Les groupes APT ciblent les sauvegardes et les identifiants d'administration avant de déclencher le chiffrement. D'où la nécessité de copies immuables."
+  },
+  {
+    "id": "ccst-10-020",
+    "domain": "Data Backup and Disaster Recovery",
+    "difficulty": "advanced",
+    "question": "Comment déterminer si un site de secours est économiquement justifié ?",
+    "options": [
+      "En comparant le coût du site au coût horaire d'indisponibilité × RTO",
+      "En copiant les concurrents",
+      "En achetant le plus cher",
+      "En suivant la mode"
+    ],
+    "answer": 0,
+    "explanation": "L'analyse coût/bénéfice intègre la perte de chiffre d'affaires, les pénalités contractuelles, l'atteinte à l'image, et se compare au coût du dispositif de secours."
+  },
+  {
+    "id": "ccst-11-001",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "beginner",
+    "question": "Que signifie IoT ?",
+    "options": [
+      "Internet of Things : objets connectés échangeant des données via Internet",
+      "Input Output Transfer",
+      "Internet of Telecom",
+      "Internal Only Terminal"
+    ],
+    "answer": 0,
+    "explanation": "L'IoT couvre objets domestiques, industriels, médicaux, automobiles, caméras, capteurs. Chaque objet est un point d'entrée potentiel."
+  },
+  {
+    "id": "ccst-11-002",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "beginner",
+    "question": "Que faire immédiatement après avoir installé une caméra IP ?",
+    "options": [
+      "La laisser telle quelle",
+      "Changer le mot de passe par défaut, mettre à jour le firmware, désactiver l'accès depuis Internet si non nécessaire",
+      "La placer dehors",
+      "La partager"
+    ],
+    "answer": 1,
+    "explanation": "Les mots de passe par défaut (admin/admin) et les firmwares obsolètes sont massivement exploités (Mirai et dérivés)."
+  },
+  {
+    "id": "ccst-11-003",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "beginner",
+    "question": "Pourquoi isoler les objets connectés sur un réseau séparé ?",
+    "options": [
+      "Pour la vitesse",
+      "Pour limiter la propagation d'une compromission d'un objet vers les autres appareils",
+      "Pour l'esthétique",
+      "Pour la conformité uniquement"
+    ],
+    "answer": 1,
+    "explanation": "Un VLAN IoT dédié avec filtrage vers Internet et sans accès aux postes internes limite drastiquement les mouvements latéraux."
+  },
+  {
+    "id": "ccst-11-004",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "beginner",
+    "question": "Pourquoi désactiver UPnP sur la box Internet ?",
+    "options": [
+      "Pour la performance",
+      "Parce qu'il ouvre automatiquement des ports vers Internet, exposant des appareils internes",
+      "Pour la conformité",
+      "Pour la stabilité"
+    ],
+    "answer": 1,
+    "explanation": "UPnP est détourné par des malwares pour exposer des services (RDP, IoT). On gère les redirections de ports manuellement."
+  },
+  {
+    "id": "ccst-11-005",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "beginner",
+    "question": "Que faire d'un objet connecté dont le fabricant ne publie plus de mises à jour ?",
+    "options": [
+      "Le garder indéfiniment",
+      "Le remplacer ou le retirer du réseau",
+      "Le mettre sur le Wi-Fi invité comme solution définitive",
+      "Le désactiver"
+    ],
+    "answer": 1,
+    "explanation": "Un objet non maintenu est une vulnérabilité permanente. Le changement est la seule solution durable. Entre-temps, l'isoler strictement."
+  },
+  {
+    "id": "ccst-11-006",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "beginner",
+    "question": "Que fait un thermostat connecté avec vos données ?",
+    "options": [
+      "Rien",
+      "Il collecte des données d'usage qui peuvent révéler vos habitudes",
+      "Il les chiffre",
+      "Il les supprime"
+    ],
+    "answer": 1,
+    "explanation": "Les objets connectés collectent des données personnelles. Vérifier les politiques de confidentialité, désactiver la télémétrie non nécessaire."
+  },
+  {
+    "id": "ccst-11-007",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "beginner",
+    "question": "Que signifie IIoT ?",
+    "options": [
+      "Industrial Internet of Things : IoT dans les environnements industriels (ICS, SCADA)",
+      "International IoT",
+      "Integrated IoT",
+      "Internal IoT"
+    ],
+    "answer": 0,
+    "explanation": "L'IIoT couvre les automates, capteurs industriels, SCADA. Les conséquences d'un incident sont physiques (sécurité des personnes, production)."
+  },
+  {
+    "id": "ccst-11-008",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "beginner",
+    "question": "Pourquoi ne pas utiliser les paramètres par défaut d'une console de jeu ?",
+    "options": [
+      "Pour la performance",
+      "Parce que les identifiants par défaut sont connus et exploités",
+      "Pour l'esthétique",
+      "Pour la conformité"
+    ],
+    "answer": 1,
+    "explanation": "Les consoles exposées avec identifiants par défaut peuvent être compromises. On change les mots de passe, on met à jour le firmware, on limite les services."
+  },
+  {
+    "id": "ccst-11-009",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "intermediate",
+    "question": "Pourquoi les objets connectés sont-ils souvent vulnérables ?",
+    "options": [
+      "Ils sont chers",
+      "Contraintes matérielles, firmwares non signés, mises à jour rares ou absentes, absence de durcissement",
+      "Ils sont nouveaux",
+      "Ils utilisent Bluetooth"
+    ],
+    "answer": 1,
+    "explanation": "La sécurité est souvent sacrifiée au coût et au time-to-market. Résultat : identifiants faibles, services inutiles ouverts, communication non chiffrée."
+  },
+  {
+    "id": "ccst-11-010",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "intermediate",
+    "question": "Que signifie firmware signé et pourquoi est-ce important ?",
+    "options": [
+      "Un firmware payant",
+      "Un firmware dont la signature est vérifiée avant installation, empêchant l'installation d'une image malveillante",
+      "Un firmware ancien",
+      "Un firmware cloud"
+    ],
+    "answer": 1,
+    "explanation": "Sans vérification de signature, un attaquant peut flasher un firmware compromis (persistance, backdoor)."
+  },
+  {
+    "id": "ccst-11-011",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "intermediate",
+    "question": "Que fait la norme Zigbee/Z-Wave du point de vue de la sécurité ?",
+    "options": [
+      "Elle chiffre les communications entre objets avec des clés réseau",
+      "Elle ne chiffre rien",
+      "Elle remplace le Wi-Fi",
+      "Elle utilise la 5G"
+    ],
+    "answer": 0,
+    "explanation": "Zigbee utilise AES-128 avec une clé réseau. La sécurité dépend de la robustesse de cette clé, de la mise à jour des firmwares."
+  },
+  {
+    "id": "ccst-11-012",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "intermediate",
+    "question": "Pourquoi les caméras et imprimantes réseau sont-elles des cibles privilégiées ?",
+    "options": [
+      "Elles sont peu nombreuses",
+      "Elles sont souvent mal configurées, exposées, avec firmware obsolète et peu surveillées",
+      "Elles sont trop chères",
+      "Elles ne se connectent pas"
+    ],
+    "answer": 1,
+    "explanation": "Des milliers de caméras/imprimantes sont exposées sur Internet avec identifiants par défaut. Elles servent de rebond ou de botnet."
+  },
+  {
+    "id": "ccst-11-013",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "intermediate",
+    "question": "Que signifie protocole MQTT et quel est son enjeu de sécurité ?",
+    "options": [
+      "Un antivirus",
+      "Un protocole de messagerie publish/subscribe pour l'IoT, qui doit être chiffré (TLS) et authentifié",
+      "Un type de chiffrement",
+      "Un VPN"
+    ],
+    "answer": 1,
+    "explanation": "MQTT est très répandu mais souvent déployé sans TLS ni authentification, exposant les topics à l'écoute et à la publication."
+  },
+  {
+    "id": "ccst-11-014",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "intermediate",
+    "question": "Que signifie OTA update ?",
+    "options": [
+      "Over-The-Air : mise à jour à distance du firmware ou du logiciel d'un objet",
+      "Un protocole réseau",
+      "Un chiffrement",
+      "Un type de malware"
+    ],
+    "answer": 0,
+    "explanation": "L'OTA est indispensable mais doit être signée, chiffrée et réversible. Sans vérification, l'OTA devient un canal d'attaque."
+  },
+  {
+    "id": "ccst-11-015",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "intermediate",
+    "question": "Pourquoi désactiver les services inutiles sur un objet connecté ?",
+    "options": [
+      "Pour la batterie",
+      "Pour réduire la surface d'attaque (Telnet, FTP, UPnP, debug)",
+      "Pour la conformité",
+      "Pour la performance uniquement"
+    ],
+    "answer": 1,
+    "explanation": "Beaucoup d'objets embarquent Telnet, FTP non chiffrés ou un serveur debug. Leur désactivation ou leur blocage réseau est une mesure de base."
+  },
+  {
+    "id": "ccst-11-016",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "intermediate",
+    "question": "Que signifie botnet IoT ?",
+    "options": [
+      "Un antivirus",
+      "Un réseau d'objets compromis piloté à distance pour lancer des attaques (DDoS, spam, minage)",
+      "Un protocole",
+      "Un pare-feu"
+    ],
+    "answer": 1,
+    "explanation": "Mirai (2016) et ses dérivés ont utilisé des caméras et routeurs mal sécurisés. Le DDoS contre Dyn a coupé l'accès à des services majeurs."
+  },
+  {
+    "id": "ccst-11-017",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que le secure element dans un objet connecté ?",
+    "options": [
+      "Un composant matériel stockant les secrets et exécutant des opérations cryptographiques de manière isolée",
+      "Un antivirus",
+      "Un firmware",
+      "Un capteur"
+    ],
+    "answer": 0,
+    "explanation": "Le secure element protège les clés, l'identité et les opérations sensibles contre l'extraction et la falsification."
+  },
+  {
+    "id": "ccst-11-018",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "advanced",
+    "question": "Que désigne le side-channel attack sur un objet connecté ?",
+    "options": [
+      "Une attaque réseau",
+      "L'exploitation de fuites physiques (consommation, EM, timing) pour extraire des secrets",
+      "Un phishing",
+      "Un type de botnet"
+    ],
+    "answer": 1,
+    "explanation": "Les objets embarqués sont vulnérables à ces attaques car physiquement accessibles. Contre-mesures : masquage, blindage, constant-time."
+  },
+  {
+    "id": "ccst-11-019",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "advanced",
+    "question": "Qu'apporte la norme IEC 62443 ?",
+    "options": [
+      "Un antivirus",
+      "Un cadre de cybersécurité pour les systèmes d'automatisation et de contrôle industriels (IACS)",
+      "Un protocole réseau",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "IEC 62443 définit des exigences par zone et conduite, des niveaux de sécurité (SL1-4), et des bonnes pratiques pour les intégrateurs, opérateurs et éditeurs."
+  },
+  {
+    "id": "ccst-11-020",
+    "domain": "Securing IoT Devices and Gaming Consoles",
+    "difficulty": "advanced",
+    "question": "Pourquoi la segmentation IT/OT est-elle critique en industrie ?",
+    "options": [
+      "Pour la performance",
+      "Parce que les conséquences d'une compromission peuvent être physiques (sécurité des personnes, environnement, production)",
+      "Pour la conformité",
+      "Pour le coût"
+    ],
+    "answer": 1,
+    "explanation": "On déploie des DMZ industrielles, des diodes de données, des pare-feux industriels et une supervision dédiée (SOC OT). La priorité : disponibilité et sûreté."
+  },
+  {
+    "id": "ccst-12-001",
+    "domain": "Secure Remote Work",
+    "difficulty": "beginner",
+    "question": "Quel est le principal risque du télétravail ?",
+    "options": [
+      "La baisse de productivité",
+      "L'utilisation de réseaux et d'équipements non maîtrisés, hors périmètre de sécurité",
+      "La consommation électrique",
+      "Le bruit"
+    ],
+    "answer": 1,
+    "explanation": "Le télétravail expose à des réseaux domestiques ou publics non maîtrisés, des équipements personnels, des imprimantes partagées, etc."
+  },
+  {
+    "id": "ccst-12-002",
+    "domain": "Secure Remote Work",
+    "difficulty": "beginner",
+    "question": "Que faire pour sécuriser son poste de travail à domicile ?",
+    "options": [
+      "Rien de spécial",
+      "Utiliser un VPN d'entreprise, un réseau Wi-Fi sécurisé, verrouiller l'écran, mettre à jour les logiciels",
+      "Désactiver le pare-feu",
+      "Partager son Wi-Fi"
+    ],
+    "answer": 1,
+    "explanation": "Le télétravail impose une discipline : VPN, Wi-Fi personnel sécurisé (WPA3), verrouillage d'écran, mises à jour, séparation pro/perso."
+  },
+  {
+    "id": "ccst-12-003",
+    "domain": "Secure Remote Work",
+    "difficulty": "beginner",
+    "question": "Pourquoi ne pas utiliser le Wi-Fi public pour travailler sans VPN ?",
+    "options": [
+      "Le débit est insuffisant",
+      "Le trafic peut être intercepté, les identifiants volés, le DNS détourné",
+      "C'est interdit",
+      "Les entreprises bloquent"
+    ],
+    "answer": 1,
+    "explanation": "Le VPN d'entreprise chiffre le trafic et protège les données professionnelles sur un réseau non maîtrisé."
+  },
+  {
+    "id": "ccst-12-004",
+    "domain": "Secure Remote Work",
+    "difficulty": "beginner",
+    "question": "Que faire si vous devez imprimer un document confidentiel en télétravail ?",
+    "options": [
+      "Utiliser l'imprimante familiale partagée",
+      "Utiliser une imprimante sécurisée, récupérer immédiatement le document, le détruire après usage",
+      "Envoyer le document par e-mail personnel",
+      "Le laisser dans l'imprimante"
+    ],
+    "answer": 1,
+    "explanation": "Les imprimantes familiales peuvent être partagées ou compromises. Récupérer immédiatement le document et le détruire après usage."
+  },
+  {
+    "id": "ccst-12-005",
+    "domain": "Secure Remote Work",
+    "difficulty": "beginner",
+    "question": "Que signifie shadow IT en télétravail ?",
+    "options": [
+      "Un antivirus",
+      "L'usage d'outils ou services non approuvés par l'entreprise",
+      "Un protocole",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Le shadow IT expose les données hors des contrôles de sécurité. On privilégie les outils approuvés et on sensibilise."
+  },
+  {
+    "id": "ccst-12-006",
+    "domain": "Secure Remote Work",
+    "difficulty": "beginner",
+    "question": "Pourquoi verrouiller son écran en télétravail ?",
+    "options": [
+      "Pour l'énergie",
+      "Pour éviter l'accès de personnes présentes au domicile ou à distance",
+      "Pour la conformité",
+      "Pour la mode"
+    ],
+    "answer": 1,
+    "explanation": "Même à domicile, des personnes (enfants, invités, réparateurs) peuvent accéder à l'écran. Le verrouillage automatique est indispensable."
+  },
+  {
+    "id": "ccst-12-007",
+    "domain": "Secure Remote Work",
+    "difficulty": "beginner",
+    "question": "Que faire des documents de travail après usage en télétravail ?",
+    "options": [
+      "Les laisser sur le bureau",
+      "Les ranger dans un espace sécurisé ou les détruire si confidentiels",
+      "Les jeter à la poubelle",
+      "Les partager"
+    ],
+    "answer": 1,
+    "explanation": "Les documents confidentiels ne doivent pas traîner. On les range dans un espace verrouillé ou on les détruit de manière sécurisée."
+  },
+  {
+    "id": "ccst-12-008",
+    "domain": "Secure Remote Work",
+    "difficulty": "beginner",
+    "question": "Pourquoi ne pas utiliser d'équipements personnels non maîtrisés pour le travail ?",
+    "options": [
+      "Pour la performance",
+      "Parce qu'ils peuvent être compromis, non patchés, ou partagés avec d'autres usages",
+      "Pour la conformité",
+      "Pour l'esthétique"
+    ],
+    "answer": 1,
+    "explanation": "Les équipements personnels peuvent être infectés, non patchés, avec des logiciels non autorisés. On privilégie le matériel fourni et maîtrisé."
+  },
+  {
+    "id": "ccst-12-009",
+    "domain": "Secure Remote Work",
+    "difficulty": "intermediate",
+    "question": "Quelles sont les bonnes pratiques de visioconférence sécurisée ?",
+    "options": [
+      "Utiliser un lien public sans mot de passe",
+      "Utiliser une salle d'attente, un mot de passe, désactiver le partage d'écran par défaut",
+      "Autoriser tous les participants",
+      "Ne pas verrouiller la réunion"
+    ],
+    "answer": 1,
+    "explanation": "On utilise une salle d'attente, un mot de passe, on désactive le partage d'écran par défaut, on verrouille la réunion une fois les participants arrivés."
+  },
+  {
+    "id": "ccst-12-010",
+    "domain": "Secure Remote Work",
+    "difficulty": "intermediate",
+    "question": "Que faire si un inconnu rejoint votre visioconférence ?",
+    "options": [
+      "Le laisser",
+      "Le retirer, verrouiller la réunion, changer le lien/mot de passe, signaler",
+      "Lui donner la parole",
+      "Partager l'écran"
+    ],
+    "answer": 1,
+    "explanation": "C'est un cas de zoombombing. On le retire, on verrouille la réunion, on change le lien et on signale l'incident."
+  },
+  {
+    "id": "ccst-12-011",
+    "domain": "Secure Remote Work",
+    "difficulty": "intermediate",
+    "question": "Pourquoi ne pas partager son écran complet en visioconférence ?",
+    "options": [
+      "Pour la performance",
+      "Parce que des informations confidentielles (e-mails, documents, notifications) peuvent être exposées",
+      "Pour la conformité",
+      "Pour l'esthétique"
+    ],
+    "answer": 1,
+    "explanation": "On partage uniquement la fenêtre nécessaire, on ferme les applications sensibles, on désactive les notifications."
+  },
+  {
+    "id": "ccst-12-012",
+    "domain": "Secure Remote Work",
+    "difficulty": "intermediate",
+    "question": "Que signifie BYOD en télétravail et quelles sont les précautions ?",
+    "options": [
+      "Un protocole réseau",
+      "L'usage d'appareils personnels pour le travail : MAM, séparation pro/perso, chiffrement, effacement sélectif",
+      "Un malware",
+      "Un type de chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "Le BYOD impose des politiques claires : conteneur pro chiffré, effacement sélectif, interdiction de copier les données pro vers le personnel."
+  },
+  {
+    "id": "ccst-12-013",
+    "domain": "Secure Remote Work",
+    "difficulty": "intermediate",
+    "question": "Que faire si vous soupçonnez une compromission de votre poste en télétravail ?",
+    "options": [
+      "Continuer à travailler",
+      "Isoler le poste, contacter le support informatique, changer les mots de passe",
+      "Éteindre et rallumer",
+      "Ne rien faire"
+    ],
+    "answer": 1,
+    "explanation": "On isole (déconnecter le réseau), on contacte le support, on change les mots de passe depuis un autre appareil, on suit les instructions de remédiation."
+  },
+  {
+    "id": "ccst-12-014",
+    "domain": "Secure Remote Work",
+    "difficulty": "intermediate",
+    "question": "Pourquoi utiliser un gestionnaire de mots de passe en télétravail ?",
+    "options": [
+      "Pour la mode",
+      "Pour générer et mémoriser des mots de passe uniques, longs et aléatoires par service",
+      "Pour la conformité",
+      "Pour l'audit"
+    ],
+    "answer": 1,
+    "explanation": "Le gestionnaire supprime la réutilisation et les mots de passe faibles. Protégé par une phrase de passe forte + MFA."
+  },
+  {
+    "id": "ccst-12-015",
+    "domain": "Secure Remote Work",
+    "difficulty": "intermediate",
+    "question": "Que faire des notifications sur l'écran de verrouillage en télétravail ?",
+    "options": [
+      "Les laisser",
+      "Les désactiver ou limiter leur contenu pour éviter la fuite d'informations",
+      "Les afficher en grand",
+      "Les partager"
+    ],
+    "answer": 1,
+    "explanation": "Les notifications (e-mails, messages, codes MFA) peuvent révéler des informations sensibles. On limite leur affichage sur l'écran verrouillé."
+  },
+  {
+    "id": "ccst-12-016",
+    "domain": "Secure Remote Work",
+    "difficulty": "intermediate",
+    "question": "Pourquoi ne pas utiliser de clés USB personnelles pour transférer des données pro ?",
+    "options": [
+      "Pour la performance",
+      "Parce qu'elles peuvent être infectées ou perdues, et exposent les données",
+      "Pour la conformité",
+      "Pour la mode"
+    ],
+    "answer": 1,
+    "explanation": "Les supports amovibles personnels sont interdits ou restreints. On utilise les solutions de transfert approuvées (VPN, cloud d'entreprise, partage sécurisé)."
+  },
+  {
+    "id": "ccst-12-017",
+    "domain": "Secure Remote Work",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que le zero trust en télétravail ?",
+    "options": [
+      "Aucune confiance implicite : chaque accès est vérifié, authentifié et autorisé",
+      "Un VPN",
+      "Un antivirus",
+      "Un pare-feu"
+    ],
+    "answer": 0,
+    "explanation": "Le zero trust suppose que le réseau domestique ou public n'est pas fiable. On vérifie chaque requête : identité, appareil, contexte."
+  },
+  {
+    "id": "ccst-12-018",
+    "domain": "Secure Remote Work",
+    "difficulty": "advanced",
+    "question": "Que signifie SASE en télétravail ?",
+    "options": [
+      "Un antivirus",
+      "Secure Access Service Edge : convergence réseau et sécurité (SD-WAN, CASB, ZTNA, SWG) dans le cloud",
+      "Un protocole",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "SASE unifie les fonctions réseau et sécurité pour les utilisateurs nomades, avec un point de décision cloud et une politique cohérente."
+  },
+  {
+    "id": "ccst-12-019",
+    "domain": "Secure Remote Work",
+    "difficulty": "advanced",
+    "question": "Qu'est-ce que le ZTNA ?",
+    "options": [
+      "Un antivirus",
+      "Zero Trust Network Access : accès applicatif granulaire basé sur l'identité et le contexte, sans VPN traditionnel",
+      "Un protocole",
+      "Un chiffrement"
+    ],
+    "answer": 1,
+    "explanation": "ZTNA remplace le VPN par un accès applicatif granulaire : l'utilisateur n'accède qu'à l'application autorisée, sans exposition du réseau interne."
+  },
+  {
+    "id": "ccst-12-020",
+    "domain": "Secure Remote Work",
+    "difficulty": "advanced",
+    "question": "Quels sont les enjeux de sécurité du travail sur appareil personnel avec accès aux données d'entreprise ?",
+    "options": [
+      "Aucun",
+      "Séparation pro/perso, chiffrement, effacement sélectif, conformité RGPD, gestion des accès",
+      "Uniquement la performance",
+      "Uniquement le coût"
+    ],
+    "answer": 1,
+    "explanation": "Le BYOD impose une gouvernance : conteneur pro, MAM, DLP, politique d'usage, consentement, conformité RGPD, effacement sélectif en cas de perte."
+  }
+]
